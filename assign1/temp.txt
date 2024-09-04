@@ -1,1054 +1,160 @@
------------------Showing differnece for sample 1----------------
+-----------------Showing differneces for sample 1----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('It', 'PRON') vs ('It', 'PRON')
-Position 3: ('is', 'VERB') vs ('is', 'VERB')
-Position 4: ('with', 'ADP') vs ('with', 'ADP')
-Position 5: *('immeasurable', 'DET')* vs *('immeasurable', 'ADJ')*
-Position 6: ('grief', 'NOUN') vs ('grief', 'NOUN')
-Position 7: ('that', 'ADP') vs ('that', 'ADP')
-Position 8: ('we', 'PRON') vs ('we', 'PRON')
-Position 9: ('confirm', 'VERB') vs ('confirm', 'VERB')
-Position 10: ('the', 'DET') vs ('the', 'DET')
-Position 11: *('passing', 'VERB')* vs *('passing', 'NOUN')*
-Position 12: ('of', 'ADP') vs ('of', 'ADP')
-Position 13: *('Chadwick', 'DET')* vs *('Chadwick', 'PROPN')*
-Position 14: *('Boseman', 'NOUN')* vs *('Boseman', 'PROPN')*
-Position 15: ('.', '.') vs ('.', '.')
-Position 16: *('Chadwick', '<end>')* vs *('Chadwick', 'PROPN')*
-Position 17: ('was', 'VERB') vs ('was', 'VERB')
-Position 18: ('diagnosed', 'VERB') vs ('diagnosed', 'VERB')
-Position 19: ('with', 'ADP') vs ('with', 'ADP')
-Position 20: ('stage', 'NOUN') vs ('stage', 'NOUN')
-Position 21: *('III', 'NOUN')* vs *('III', 'NUM')*
-Position 22: *('colon', '.')* vs *('colon', 'NOUN')*
-Position 23: ('cancer', 'NOUN') vs ('cancer', 'NOUN')
-Position 24: ('in', 'ADP') vs ('in', 'ADP')
-Position 25: *('2016', 'NOUN')* vs *('2016', 'NUM')*
-Position 26: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 27: *('battled', 'NOUN')* vs *('battled', 'VERB')*
-Position 28: ('with', 'ADP') vs ('with', 'ADP')
-Position 29: ('it', 'PRON') vs ('it', 'PRON')
-Position 30: ('these', 'DET') vs ('these', 'DET')
-Position 31: ('last', 'ADJ') vs ('last', 'ADJ')
-Position 32: ('4', 'NUM') vs ('4', 'NUM')
-Position 33: ('years', 'NOUN') vs ('years', 'NOUN')
-Position 34: ('as', 'ADP') vs ('as', 'ADP')
-Position 35: ('it', 'PRON') vs ('it', 'PRON')
-Position 36: ('progressed', 'VERB') vs ('progressed', 'VERB')
-Position 37: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 38: ('stage', 'NOUN') vs ('stage', 'NOUN')
-Position 39: *('IV', 'NOUN')* vs *('IV', 'NUM')*
-Position 40: ('.', '.') vs ('.', '.')
-Position 41: ('A', 'DET') vs ('A', 'DET')
-Position 42: ('true', 'ADJ') vs ('true', 'ADJ')
-Position 43: ('fighter', 'NOUN') vs ('fighter', 'NOUN')
-Position 44: *('Chadwick', '.')* vs *('Chadwick', 'PROPN')*
-Position 45: *('persevered', 'NOUN')* vs *('persevered', 'VERB')*
-Position 46: ('through', 'ADP') vs ('through', 'ADP')
-Position 47: ('it', 'PRON') vs ('it', 'PRON')
-Position 48: *('all', 'PRT')* vs *('all', 'DET')*
-Position 49: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 50: ('brought', 'VERB') vs ('brought', 'VERB')
-Position 51: ('you', 'PRON') vs ('you', 'PRON')
-Position 52: *('many', 'ADJ')* vs *('many', 'DET')*
-Position 53: ('of', 'ADP') vs ('of', 'ADP')
-Position 54: ('the', 'DET') vs ('the', 'DET')
-Position 55: ('films', 'NOUN') vs ('films', 'NOUN')
-Position 56: ('you', 'PRON') vs ('you', 'PRON')
-Position 57: ('have', 'VERB') vs ('have', 'VERB')
-Position 58: ('come', 'VERB') vs ('come', 'VERB')
-Position 59: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 60: ('love', 'VERB') vs ('love', 'VERB')
-Position 61: ('so', 'ADV') vs ('so', 'ADV')
-Position 62: *('much', 'ADJ')* vs *('much', 'ADV')*
-Position 63: ('.', '.') vs ('.', '.')
-Position 64: ('From', 'ADP') vs ('From', 'ADP')
-Position 65: *('Marshall', 'NOUN')* vs *('Marshall', 'PROPN')*
-Position 66: ('to', 'ADP') vs ('to', 'ADP')
-Position 67: *('Da', 'NOUN')* vs *('Da', 'PROPN')*
-Position 68: ('5', 'NUM') vs ('5', 'NUM')
-Position 69: *('Bloods', 'NOUN')* vs *('Bloods', 'PROPN')*
-Position 70: *('August', 'NOUN')* vs *('August', 'PROPN')*
-Position 71: *("Wilson's", 'NOUN')* vs *("Wilson's", 'PROPN')*
-Position 72: *('Ma', 'NOUN')* vs *('Ma', 'PROPN')*
-Position 73: *("Rainey's", 'NOUN')* vs *("Rainey's", 'PROPN')*
-Position 74: *('Black', 'NOUN')* vs *('Black', 'PROPN')*
-Position 75: *('Bottom', 'NOUN')* vs *('Bottom', 'PROPN')*
-Position 76: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 77: *('several', 'ADJ')* vs *('several', 'DET')*
-Position 78: ('more', 'ADJ') vs ('more', 'ADJ')
-Position 79: *('all', 'PRT')* vs *('all', 'DET')*
-Position 80: ('were', 'VERB') vs ('were', 'VERB')
-Position 81: ('filmed', 'VERB') vs ('filmed', 'VERB')
-Position 82: ('during', 'ADP') vs ('during', 'ADP')
-Position 83: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 84: ('between', 'ADP') vs ('between', 'ADP')
-Position 85: ('countless', 'ADJ') vs ('countless', 'ADJ')
-Position 86: ('surgeries', 'NOUN') vs ('surgeries', 'NOUN')
-Position 87: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 88: ('chemotherapy', 'NOUN') vs ('chemotherapy', 'NOUN')
-Position 89: ('.', '.') vs ('.', '.')
-Position 90: ('It', 'PRON') vs ('It', 'PRON')
-Position 91: ('was', 'VERB') vs ('was', 'VERB')
-Position 92: ('the', 'DET') vs ('the', 'DET')
-Position 93: ('honor', 'NOUN') vs ('honor', 'NOUN')
-Position 94: ('of', 'ADP') vs ('of', 'ADP')
-Position 95: *('his', 'DET')* vs *('his', 'PRON')*
-Position 96: ('career', 'NOUN') vs ('career', 'NOUN')
-Position 97: ('to', 'ADP') vs ('to', 'ADP')
-Position 98: ('bring', 'VERB') vs ('bring', 'VERB')
-Position 99: *('King', 'NOUN')* vs *('King', 'PROPN')*
-Position 100: *("T'Challa", 'NOUN')* vs *("T'Challa", 'PROPN')*
-Position 101: ('to', 'ADP') vs ('to', 'ADP')
-Position 102: ('life', 'NOUN') vs ('life', 'NOUN')
-Position 103: ('in', 'ADP') vs ('in', 'ADP')
-Position 104: *('Black', 'NOUN')* vs *('Black', 'PROPN')*
-Position 105: *('Panther', 'NOUN')* vs *('Panther', 'PROPN')*
-Position 106: ('.', '.') vs ('.', '.')
-Position 107: ('He', 'PRON') vs ('He', 'PRON')
-Position 108: ('died', 'VERB') vs ('died', 'VERB')
-Position 109: ('in', 'ADP') vs ('in', 'ADP')
-Position 110: *('his', 'DET')* vs *('his', 'PRON')*
-Position 111: ('home', 'NOUN') vs ('home', 'NOUN')
-Position 112: ('with', 'ADP') vs ('with', 'ADP')
-Position 113: *('his', 'DET')* vs *('his', 'PRON')*
-Position 114: ('wife', 'NOUN') vs ('wife', 'NOUN')
-Position 115: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 116: ('family', 'NOUN') vs ('family', 'NOUN')
-Position 117: ('by', 'ADP') vs ('by', 'ADP')
-Position 118: *('his', 'DET')* vs *('his', 'PRON')*
-Position 119: ('side', 'NOUN') vs ('side', 'NOUN')
-Position 120: ('.', '.') vs ('.', '.')
-Position 121: ('The', 'DET') vs ('The', 'DET')
-Position 122: ('family', 'NOUN') vs ('family', 'NOUN')
-Position 123: *('thanks', 'NOUN')* vs *('thanks', 'VERB')*
-Position 124: ('you', 'PRON') vs ('you', 'PRON')
-Position 125: ('for', 'ADP') vs ('for', 'ADP')
-Position 126: *('your', 'DET')* vs *('your', 'PRON')*
-Position 127: *('love', 'X')* vs *('love', 'NOUN')*
-Position 128: *('and', 'X')* vs *('and', 'CONJ')*
-Position 129: *('prayers', 'X')* vs *('prayers', 'NOUN')*
-Position 130: *('and', 'X')* vs *('and', 'CONJ')*
-Position 131: *('asks', 'X')* vs *('asks', 'VERB')*
-Position 132: *('that', 'X')* vs *('that', 'ADP')*
-Position 133: *('you', 'X')* vs *('you', 'PRON')*
-Position 134: *('continue', 'X')* vs *('continue', 'VERB')*
-Position 135: *('to', 'X')* vs *('to', 'ADP')*
-Position 136: *('respect', 'X')* vs *('respect', 'VERB')*
-Position 137: *('their', 'X')* vs *('their', 'PRON')*
-Position 138: *('privacy', 'X')* vs *('privacy', 'NOUN')*
-Position 139: *('during', 'X')* vs *('during', 'ADP')*
-Position 140: *('this', 'X')* vs *('this', 'DET')*
-Position 141: *('difficult', 'X')* vs *('difficult', 'ADJ')*
-Position 142: *('time', 'X')* vs *('time', 'NOUN')*
-Position 143: *('.', 'X')* vs *('.', '.')*
-Position 144: *('<end>', 'X')* vs *('<end>', '<end>')*
+('<start>', '<start>') ('It', 'PRON') ('is', 'VERB') ('with', 'ADP') *('immeasurable', 'DET')* ('grief', 'NOUN') ('that', 'ADP') ('we', 'PRON') ('confirm', 'VERB') ('the', 'DET') *('passing', 'VERB')* ('of', 'ADP') *('Chadwick', 'DET')* *('Boseman', 'NOUN')* ('.', '.') *('Chadwick', '<end>')* ('was', 'VERB') ('diagnosed', 'VERB') ('with', 'ADP') ('stage', 'NOUN') *('III', 'NOUN')* *('colon', '.')* ('cancer', 'NOUN') ('in', 'ADP') *('2016', 'NOUN')* ('and', 'CONJ') *('battled', 'NOUN')* ('with', 'ADP') ('it', 'PRON') ('these', 'DET') ('last', 'ADJ') ('4', 'NUM') ('years', 'NOUN') ('as', 'ADP') ('it', 'PRON') ('progressed', 'VERB') *('to', 'PRT')* ('stage', 'NOUN') *('IV', 'NOUN')* ('.', '.') ('A', 'DET') ('true', 'ADJ') ('fighter', 'NOUN') *('Chadwick', '.')* *('persevered', 'NOUN')* ('through', 'ADP') ('it', 'PRON') *('all', 'PRT')* ('and', 'CONJ') ('brought', 'VERB') ('you', 'PRON') *('many', 'ADJ')* ('of', 'ADP') ('the', 'DET') ('films', 'NOUN') ('you', 'PRON') ('have', 'VERB') ('come', 'VERB') *('to', 'PRT')* ('love', 'VERB') ('so', 'ADV') *('much', 'ADJ')* ('.', '.') ('From', 'ADP') *('Marshall', 'NOUN')* ('to', 'ADP') *('Da', 'NOUN')* ('5', 'NUM') *('Bloods', 'NOUN')* *('August', 'NOUN')* *("Wilson's", 'NOUN')* *('Ma', 'NOUN')* *("Rainey's", 'NOUN')* *('Black', 'NOUN')* *('Bottom', 'NOUN')* ('and', 'CONJ') *('several', 'ADJ')* ('more', 'ADJ') *('all', 'PRT')* ('were', 'VERB') ('filmed', 'VERB') ('during', 'ADP') ('and', 'CONJ') ('between', 'ADP') ('countless', 'ADJ') ('surgeries', 'NOUN') ('and', 'CONJ') ('chemotherapy', 'NOUN') ('.', '.') ('It', 'PRON') ('was', 'VERB') ('the', 'DET') ('honor', 'NOUN') ('of', 'ADP') *('his', 'DET')* ('career', 'NOUN') ('to', 'ADP') ('bring', 'VERB') *('King', 'NOUN')* *("T'Challa", 'NOUN')* ('to', 'ADP') ('life', 'NOUN') ('in', 'ADP') *('Black', 'NOUN')* *('Panther', 'NOUN')* ('.', '.') ('He', 'PRON') ('died', 'VERB') ('in', 'ADP') *('his', 'DET')* ('home', 'NOUN') ('with', 'ADP') *('his', 'DET')* ('wife', 'NOUN') ('and', 'CONJ') ('family', 'NOUN') ('by', 'ADP') *('his', 'DET')* ('side', 'NOUN') ('.', '.') ('The', 'DET') ('family', 'NOUN') *('thanks', 'NOUN')* ('you', 'PRON') ('for', 'ADP') *('your', 'DET')* *('love', 'X')* *('and', 'X')* *('prayers', 'X')* *('and', 'X')* *('asks', 'X')* *('that', 'X')* *('you', 'X')* *('continue', 'X')* *('to', 'X')* *('respect', 'X')* *('their', 'X')* *('privacy', 'X')* *('during', 'X')* *('this', 'X')* *('difficult', 'X')* *('time', 'X')* *('.', 'X')* *('<end>', 'X')* 
+('<start>', '<start>') ('It', 'PRON') ('is', 'VERB') ('with', 'ADP') *('immeasurable', 'ADJ')* ('grief', 'NOUN') ('that', 'ADP') ('we', 'PRON') ('confirm', 'VERB') ('the', 'DET') *('passing', 'NOUN')* ('of', 'ADP') *('Chadwick', 'PROPN')* *('Boseman', 'PROPN')* ('.', '.') *('Chadwick', 'PROPN')* ('was', 'VERB') ('diagnosed', 'VERB') ('with', 'ADP') ('stage', 'NOUN') *('III', 'NUM')* *('colon', 'NOUN')* ('cancer', 'NOUN') ('in', 'ADP') *('2016', 'NUM')* ('and', 'CONJ') *('battled', 'VERB')* ('with', 'ADP') ('it', 'PRON') ('these', 'DET') ('last', 'ADJ') ('4', 'NUM') ('years', 'NOUN') ('as', 'ADP') ('it', 'PRON') ('progressed', 'VERB') *('to', 'ADP')* ('stage', 'NOUN') *('IV', 'NUM')* ('.', '.') ('A', 'DET') ('true', 'ADJ') ('fighter', 'NOUN') *('Chadwick', 'PROPN')* *('persevered', 'VERB')* ('through', 'ADP') ('it', 'PRON') *('all', 'DET')* ('and', 'CONJ') ('brought', 'VERB') ('you', 'PRON') *('many', 'DET')* ('of', 'ADP') ('the', 'DET') ('films', 'NOUN') ('you', 'PRON') ('have', 'VERB') ('come', 'VERB') *('to', 'ADP')* ('love', 'VERB') ('so', 'ADV') *('much', 'ADV')* ('.', '.') ('From', 'ADP') *('Marshall', 'PROPN')* ('to', 'ADP') *('Da', 'PROPN')* ('5', 'NUM') *('Bloods', 'PROPN')* *('August', 'PROPN')* *("Wilson's", 'PROPN')* *('Ma', 'PROPN')* *("Rainey's", 'PROPN')* *('Black', 'PROPN')* *('Bottom', 'PROPN')* ('and', 'CONJ') *('several', 'DET')* ('more', 'ADJ') *('all', 'DET')* ('were', 'VERB') ('filmed', 'VERB') ('during', 'ADP') ('and', 'CONJ') ('between', 'ADP') ('countless', 'ADJ') ('surgeries', 'NOUN') ('and', 'CONJ') ('chemotherapy', 'NOUN') ('.', '.') ('It', 'PRON') ('was', 'VERB') ('the', 'DET') ('honor', 'NOUN') ('of', 'ADP') *('his', 'PRON')* ('career', 'NOUN') ('to', 'ADP') ('bring', 'VERB') *('King', 'PROPN')* *("T'Challa", 'PROPN')* ('to', 'ADP') ('life', 'NOUN') ('in', 'ADP') *('Black', 'PROPN')* *('Panther', 'PROPN')* ('.', '.') ('He', 'PRON') ('died', 'VERB') ('in', 'ADP') *('his', 'PRON')* ('home', 'NOUN') ('with', 'ADP') *('his', 'PRON')* ('wife', 'NOUN') ('and', 'CONJ') ('family', 'NOUN') ('by', 'ADP') *('his', 'PRON')* ('side', 'NOUN') ('.', '.') ('The', 'DET') ('family', 'NOUN') *('thanks', 'VERB')* ('you', 'PRON') ('for', 'ADP') *('your', 'PRON')* *('love', 'NOUN')* *('and', 'CONJ')* *('prayers', 'NOUN')* *('and', 'CONJ')* *('asks', 'VERB')* *('that', 'ADP')* *('you', 'PRON')* *('continue', 'VERB')* *('to', 'ADP')* *('respect', 'VERB')* *('their', 'PRON')* *('privacy', 'NOUN')* *('during', 'ADP')* *('this', 'DET')* *('difficult', 'ADJ')* *('time', 'NOUN')* *('.', '.')* *('<end>', '<end>')* 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 2----------------
+-----------------Showing differneces for sample 2----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: *('Invenergy', 'NOUN')* vs *('Invenergy', 'PROPN')*
-Position 3: *('commences', '.')* vs *('commences', 'VERB')*
-Position 4: ('operations', 'NOUN') vs ('operations', 'NOUN')
-Position 5: ('at', 'ADP') vs ('at', 'ADP')
-Position 6: *('10th', 'DET')* vs *('10th', 'NUM')*
-Position 7: *('Arizona', 'NOUN')* vs *('Arizona', 'PROPN')*
-Position 8: ('battery', 'NOUN') vs ('battery', 'NOUN')
-Position 9: ('energy', 'NOUN') vs ('energy', 'NOUN')
-Position 10: ('storage', 'NOUN') vs ('storage', 'NOUN')
-Position 11: ('project', 'NOUN') vs ('project', 'NOUN')
-Position 12: (':', '.') vs (':', '.')
-Position 13: ('A', 'DET') vs ('A', 'DET')
-Position 14: ('new', 'ADJ') vs ('new', 'ADJ')
-Position 15: ('50', 'NUM') vs ('50', 'NUM')
-Position 16: *('MW', 'NOUN')* vs *('MW', 'X')*
-Position 17: *('/', 'ADP')* vs *('/', 'X')*
-Position 18: ('200', 'NUM') vs ('200', 'NUM')
-Position 19: *('MWh', 'NOUN')* vs *('MWh', 'X')*
-Position 20: *('BESS', 'NOUN')* vs *('BESS', 'X')*
-Position 21: ('in', 'ADP') vs ('in', 'ADP')
-Position 22: *('Arizona', 'NOUN')* vs *('Arizona', 'PROPN')*
-Position 23: ('brings', 'VERB') vs ('brings', 'VERB')
-Position 24: ('a', 'DET') vs ('a', 'DET')
-Position 25: ('milestone', 'NOUN') vs ('milestone', 'NOUN')
-Position 26: ('for', 'ADP') vs ('for', 'ADP')
-Position 27: *('Invenergy', 'NOUN')* vs *('Invenergy', 'PROPN')*
-Position 28: ('in', 'ADP') vs ('in', 'ADP')
-Position 29: ('one', 'NUM') vs ('one', 'NUM')
-Position 30: ('of', 'ADP') vs ('of', 'ADP')
-Position 31: ('the', 'DET') vs ('the', 'DET')
-Position 32: *('United', 'VERB')* vs *('United', 'PROPN')*
-Position 33: *('States', 'NOUN')* vs *('States', 'PROPN')*
-Position 34: ('most', 'ADV') vs ('most', 'ADV')
-Position 35: ('active', 'ADJ') vs ('active', 'ADJ')
-Position 36: ('regions', 'NOUN') vs ('regions', 'NOUN')
-Position 37: ('.', '.') vs ('.', '.')
-Position 38: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') *('Invenergy', 'NOUN')* *('commences', '.')* ('operations', 'NOUN') ('at', 'ADP') *('10th', 'DET')* *('Arizona', 'NOUN')* ('battery', 'NOUN') ('energy', 'NOUN') ('storage', 'NOUN') ('project', 'NOUN') (':', '.') ('A', 'DET') ('new', 'ADJ') ('50', 'NUM') *('MW', 'NOUN')* *('/', 'ADP')* ('200', 'NUM') *('MWh', 'NOUN')* *('BESS', 'NOUN')* ('in', 'ADP') *('Arizona', 'NOUN')* ('brings', 'VERB') ('a', 'DET') ('milestone', 'NOUN') ('for', 'ADP') *('Invenergy', 'NOUN')* ('in', 'ADP') ('one', 'NUM') ('of', 'ADP') ('the', 'DET') *('United', 'VERB')* *('States', 'NOUN')* ('most', 'ADV') ('active', 'ADJ') ('regions', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') *('Invenergy', 'PROPN')* *('commences', 'VERB')* ('operations', 'NOUN') ('at', 'ADP') *('10th', 'NUM')* *('Arizona', 'PROPN')* ('battery', 'NOUN') ('energy', 'NOUN') ('storage', 'NOUN') ('project', 'NOUN') (':', '.') ('A', 'DET') ('new', 'ADJ') ('50', 'NUM') *('MW', 'X')* *('/', 'X')* ('200', 'NUM') *('MWh', 'X')* *('BESS', 'X')* ('in', 'ADP') *('Arizona', 'PROPN')* ('brings', 'VERB') ('a', 'DET') ('milestone', 'NOUN') ('for', 'ADP') *('Invenergy', 'PROPN')* ('in', 'ADP') ('one', 'NUM') ('of', 'ADP') ('the', 'DET') *('United', 'PROPN')* *('States', 'PROPN')* ('most', 'ADV') ('active', 'ADJ') ('regions', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 3----------------
+-----------------Showing differneces for sample 3----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: *('Strongest', 'NOUN')* vs *('Strongest', 'ADJ')*
-Position 3: *('Start', 'VERB')* vs *('Start', 'NOUN')*
-Position 4: *('Ever', 'ADV')* vs *('Ever', 'ADJ')*
-Position 5: (':', '.') vs (':', '.')
-Position 6: *('Australian', '<end>')* vs *('Australian', 'ADJ')*
-Position 7: *('ETF', 'NOUN')* vs *('ETF', 'X')*
-Position 8: ('Market', 'NOUN') vs ('Market', 'NOUN')
-Position 9: ('breaks', 'VERB') vs ('breaks', 'VERB')
-Position 10: *('$', 'VERB')* vs *('$', 'X')*
-Position 11: ('200', 'NUM') vs ('200', 'NUM')
-Position 12: ('billion', 'NUM') vs ('billion', 'NUM')
-Position 13: ('record', 'NOUN') vs ('record', 'NOUN')
-Position 14: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') *('Strongest', 'NOUN')* *('Start', 'VERB')* *('Ever', 'ADV')* (':', '.') *('Australian', '<end>')* *('ETF', 'NOUN')* ('Market', 'NOUN') ('breaks', 'VERB') *('$', 'VERB')* ('200', 'NUM') ('billion', 'NUM') ('record', 'NOUN') ('<end>', '<end>') 
+('<start>', '<start>') *('Strongest', 'ADJ')* *('Start', 'NOUN')* *('Ever', 'ADJ')* (':', '.') *('Australian', 'ADJ')* *('ETF', 'X')* ('Market', 'NOUN') ('breaks', 'VERB') *('$', 'X')* ('200', 'NUM') ('billion', 'NUM') ('record', 'NOUN') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 4----------------
+-----------------Showing differneces for sample 4----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: *('Manhattan', 'NOUN')* vs *('Manhattan', 'PROPN')*
-Position 3: *('Associates', '.')* vs *('Associates', 'PROPN')*
-Position 4: *('unveiled', '<end>')* vs *('unveiled', 'VERB')*
-Position 5: *('AI', 'NOUN')* vs *('AI', 'X')*
-Position 6: ('innovations', 'NOUN') vs ('innovations', 'NOUN')
-Position 7: ('in', 'ADP') vs ('in', 'ADP')
-Position 8: ('supply', 'NOUN') vs ('supply', 'NOUN')
-Position 9: ('chain', 'NOUN') vs ('chain', 'NOUN')
-Position 10: *('planning', 'VERB')* vs *('planning', 'NOUN')*
-Position 11: ('at', 'ADP') vs ('at', 'ADP')
-Position 12: *('#ManhattanExchange', 'NOUN')* vs *('#ManhattanExchange', 'X')*
-Position 13: ('in', 'ADP') vs ('in', 'ADP')
-Position 14: *('Melbourne', 'DET')* vs *('Melbourne', 'PROPN')*
-Position 15: ('attracting', 'VERB') vs ('attracting', 'VERB')
-Position 16: ('over', 'ADP') vs ('over', 'ADP')
-Position 17: ('200', 'NUM') vs ('200', 'NUM')
-Position 18: ('industry', 'NOUN') vs ('industry', 'NOUN')
-Position 19: ('representatives', 'NOUN') vs ('representatives', 'NOUN')
-Position 20: ('.', '.') vs ('.', '.')
-Position 21: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') *('Manhattan', 'NOUN')* *('Associates', '.')* *('unveiled', '<end>')* *('AI', 'NOUN')* ('innovations', 'NOUN') ('in', 'ADP') ('supply', 'NOUN') ('chain', 'NOUN') *('planning', 'VERB')* ('at', 'ADP') *('#ManhattanExchange', 'NOUN')* ('in', 'ADP') *('Melbourne', 'DET')* ('attracting', 'VERB') ('over', 'ADP') ('200', 'NUM') ('industry', 'NOUN') ('representatives', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') *('Manhattan', 'PROPN')* *('Associates', 'PROPN')* *('unveiled', 'VERB')* *('AI', 'X')* ('innovations', 'NOUN') ('in', 'ADP') ('supply', 'NOUN') ('chain', 'NOUN') *('planning', 'NOUN')* ('at', 'ADP') *('#ManhattanExchange', 'X')* ('in', 'ADP') *('Melbourne', 'PROPN')* ('attracting', 'VERB') ('over', 'ADP') ('200', 'NUM') ('industry', 'NOUN') ('representatives', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 5----------------
+-----------------Showing differneces for sample 5----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('The', 'DET') vs ('The', 'DET')
-Position 3: ('government', 'NOUN') vs ('government', 'NOUN')
-Position 4: ('will', 'VERB') vs ('will', 'VERB')
-Position 5: ('revive', 'VERB') vs ('revive', 'VERB')
-Position 6: ('a', 'DET') vs ('a', 'DET')
-Position 7: *('200-billion-baht', 'NOUN')* vs *('200-billion-baht', 'NUM')*
-Position 8: ('water', 'NOUN') vs ('water', 'NOUN')
-Position 9: ('management', 'NOUN') vs ('management', 'NOUN')
-Position 10: ('project', 'NOUN') vs ('project', 'NOUN')
-Position 11: ('to', 'ADP') vs ('to', 'ADP')
-Position 12: *('mitigate', 'DET')* vs *('mitigate', 'VERB')*
-Position 13: ('severe', 'ADJ') vs ('severe', 'ADJ')
-Position 14: ('flooding', 'NOUN') vs ('flooding', 'NOUN')
-Position 15: ('in', 'ADP') vs ('in', 'ADP')
-Position 16: ('the', 'DET') vs ('the', 'DET')
-Position 17: *('Yom', 'NOUN')* vs *('Yom', 'PROPN')*
-Position 18: *('River', 'NOUN')* vs *('River', 'PROPN')*
-Position 19: ('basin', 'NOUN') vs ('basin', 'NOUN')
-Position 20: ('in', 'ADP') vs ('in', 'ADP')
-Position 21: ('the', 'DET') vs ('the', 'DET')
-Position 22: *('North', 'ADJ')* vs *('North', 'NOUN')*
-Position 23: ('amid', 'ADP') vs ('amid', 'ADP')
-Position 24: ('calls', 'NOUN') vs ('calls', 'NOUN')
-Position 25: ('to', 'ADP') vs ('to', 'ADP')
-Position 26: *('revisit', 'NOUN')* vs *('revisit', 'VERB')*
-Position 27: ('the', 'DET') vs ('the', 'DET')
-Position 28: ('controversial', 'ADJ') vs ('controversial', 'ADJ')
-Position 29: *('Kaeng', 'NOUN')* vs *('Kaeng', 'PROPN')*
-Position 30: *('Sua', 'NOUN')* vs *('Sua', 'PROPN')*
-Position 31: *('Ten', '.')* vs *('Ten', 'PROPN')*
-Position 32: *('Dam', 'NOUN')* vs *('Dam', 'PROPN')*
-Position 33: ('plan', 'NOUN') vs ('plan', 'NOUN')
-Position 34: ('.', '.') vs ('.', '.')
-Position 35: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('The', 'DET') ('government', 'NOUN') ('will', 'VERB') ('revive', 'VERB') ('a', 'DET') *('200-billion-baht', 'NOUN')* ('water', 'NOUN') ('management', 'NOUN') ('project', 'NOUN') ('to', 'ADP') *('mitigate', 'DET')* ('severe', 'ADJ') ('flooding', 'NOUN') ('in', 'ADP') ('the', 'DET') *('Yom', 'NOUN')* *('River', 'NOUN')* ('basin', 'NOUN') ('in', 'ADP') ('the', 'DET') *('North', 'ADJ')* ('amid', 'ADP') ('calls', 'NOUN') ('to', 'ADP') *('revisit', 'NOUN')* ('the', 'DET') ('controversial', 'ADJ') *('Kaeng', 'NOUN')* *('Sua', 'NOUN')* *('Ten', '.')* *('Dam', 'NOUN')* ('plan', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('The', 'DET') ('government', 'NOUN') ('will', 'VERB') ('revive', 'VERB') ('a', 'DET') *('200-billion-baht', 'NUM')* ('water', 'NOUN') ('management', 'NOUN') ('project', 'NOUN') ('to', 'ADP') *('mitigate', 'VERB')* ('severe', 'ADJ') ('flooding', 'NOUN') ('in', 'ADP') ('the', 'DET') *('Yom', 'PROPN')* *('River', 'PROPN')* ('basin', 'NOUN') ('in', 'ADP') ('the', 'DET') *('North', 'NOUN')* ('amid', 'ADP') ('calls', 'NOUN') ('to', 'ADP') *('revisit', 'VERB')* ('the', 'DET') ('controversial', 'ADJ') *('Kaeng', 'PROPN')* *('Sua', 'PROPN')* *('Ten', 'PROPN')* *('Dam', 'PROPN')* ('plan', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 6----------------
+-----------------Showing differneces for sample 6----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('If', 'ADP') vs ('If', 'ADP')
-Position 3: ('you', 'PRON') vs ('you', 'PRON')
-Position 4: ('think', 'VERB') vs ('think', 'VERB')
-Position 5: ('about', 'ADP') vs ('about', 'ADP')
-Position 6: ('it', 'PRON') vs ('it', 'PRON')
-Position 7: *('artists', 'VERB')* vs *('artists', 'NOUN')*
-Position 8: *('their', 'DET')* vs *('their', 'PRON')*
-Position 9: ('lives', 'NOUN') vs ('lives', 'NOUN')
-Position 10: ('have', 'VERB') vs ('have', 'VERB')
-Position 11: ('no', 'DET') vs ('no', 'DET')
-Position 12: ('meaning', 'NOUN') vs ('meaning', 'NOUN')
-Position 13: ('for', 'ADP') vs ('for', 'ADP')
-Position 14: *('anyone', 'NOUN')* vs *('anyone', 'PRON')*
-Position 15: ('.', '.') vs ('.', '.')
-Position 16: *('Everyone', 'NOUN')* vs *('Everyone', 'PRON')*
-Position 17: *('talks', 'NOUN')* vs *('talks', 'VERB')*
-Position 18: ('about', 'ADP') vs ('about', 'ADP')
-Position 19: *('their', 'DET')* vs *('their', 'PRON')*
-Position 20: ('works', 'NOUN') vs ('works', 'NOUN')
-Position 21: ('sometimes', 'ADV') vs ('sometimes', 'ADV')
-Position 22: ('200', 'NUM') vs ('200', 'NUM')
-Position 23: ('years', 'NOUN') vs ('years', 'NOUN')
-Position 24: ('later', 'ADV') vs ('later', 'ADV')
-Position 25: ('.', '.') vs ('.', '.')
-Position 26: ('As', 'ADP') vs ('As', 'ADP')
-Position 27: ('I', 'PRON') vs ('I', 'PRON')
-Position 28: ('said', 'VERB') vs ('said', 'VERB')
-Position 29: ('before', 'ADP') vs ('before', 'ADP')
-Position 30: ('the', 'DET') vs ('the', 'DET')
-Position 31: ('author', 'NOUN') vs ('author', 'NOUN')
-Position 32: ('is', 'VERB') vs ('is', 'VERB')
-Position 33: ('just', 'ADV') vs ('just', 'ADV')
-Position 34: ('a', 'DET') vs ('a', 'DET')
-Position 35: ('gatekeeper', 'NOUN') vs ('gatekeeper', 'NOUN')
-Position 36: ('he', 'PRON') vs ('he', 'PRON')
-Position 37: ('is', 'VERB') vs ('is', 'VERB')
-Position 38: ('not', 'ADV') vs ('not', 'ADV')
-Position 39: ('important', 'ADJ') vs ('important', 'ADJ')
-Position 40: ('for', 'ADP') vs ('for', 'ADP')
-Position 41: *('anyone', 'NOUN')* vs *('anyone', 'PRON')*
-Position 42: ('.', '.') vs ('.', '.')
-Position 43: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('If', 'ADP') ('you', 'PRON') ('think', 'VERB') ('about', 'ADP') ('it', 'PRON') *('artists', 'VERB')* *('their', 'DET')* ('lives', 'NOUN') ('have', 'VERB') ('no', 'DET') ('meaning', 'NOUN') ('for', 'ADP') *('anyone', 'NOUN')* ('.', '.') *('Everyone', 'NOUN')* *('talks', 'NOUN')* ('about', 'ADP') *('their', 'DET')* ('works', 'NOUN') ('sometimes', 'ADV') ('200', 'NUM') ('years', 'NOUN') ('later', 'ADV') ('.', '.') ('As', 'ADP') ('I', 'PRON') ('said', 'VERB') ('before', 'ADP') ('the', 'DET') ('author', 'NOUN') ('is', 'VERB') ('just', 'ADV') ('a', 'DET') ('gatekeeper', 'NOUN') ('he', 'PRON') ('is', 'VERB') ('not', 'ADV') ('important', 'ADJ') ('for', 'ADP') *('anyone', 'NOUN')* ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('If', 'ADP') ('you', 'PRON') ('think', 'VERB') ('about', 'ADP') ('it', 'PRON') *('artists', 'NOUN')* *('their', 'PRON')* ('lives', 'NOUN') ('have', 'VERB') ('no', 'DET') ('meaning', 'NOUN') ('for', 'ADP') *('anyone', 'PRON')* ('.', '.') *('Everyone', 'PRON')* *('talks', 'VERB')* ('about', 'ADP') *('their', 'PRON')* ('works', 'NOUN') ('sometimes', 'ADV') ('200', 'NUM') ('years', 'NOUN') ('later', 'ADV') ('.', '.') ('As', 'ADP') ('I', 'PRON') ('said', 'VERB') ('before', 'ADP') ('the', 'DET') ('author', 'NOUN') ('is', 'VERB') ('just', 'ADV') ('a', 'DET') ('gatekeeper', 'NOUN') ('he', 'PRON') ('is', 'VERB') ('not', 'ADV') ('important', 'ADJ') ('for', 'ADP') *('anyone', 'PRON')* ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 7----------------
+-----------------Showing differneces for sample 7----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: *('Who', 'PRON')* vs *('Who', 'X')*
-Position 3: ('is', 'VERB') vs ('is', 'VERB')
-Position 4: ('predicted', 'VERB') vs ('predicted', 'VERB')
-Position 5: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 6: ('remain', 'VERB') vs ('remain', 'VERB')
-Position 7: ('in', 'ADP') vs ('in', 'ADP')
-Position 8: ('the', 'DET') vs ('the', 'DET')
-Position 9: ('top', 'NOUN') vs ('top', 'NOUN')
-Position 10: ('10', 'NUM') vs ('10', 'NUM')
-Position 11: ('of', 'ADP') vs ('of', 'ADP')
-Position 12: ('global', 'ADJ') vs ('global', 'ADJ')
-Position 13: ('200', 'NUM') vs ('200', 'NUM')
-Position 14: *('so', 'ADP')* vs *('so', 'ADV')*
-Position 15: *('please', 'VERB')* vs *('please', 'ADV')*
-Position 16: ('lets', 'VERB') vs ('lets', 'VERB')
-Position 17: ('get', 'VERB') vs ('get', 'VERB')
-Position 18: ('those', 'DET') vs ('those', 'DET')
-Position 19: ('streams', 'NOUN') vs ('streams', 'NOUN')
-Position 20: ('back', 'ADV') vs ('back', 'ADV')
-Position 21: ('to', 'ADP') vs ('to', 'ADP')
-Position 22: ('keep', 'VERB') vs ('keep', 'VERB')
-Position 23: ('it', 'PRON') vs ('it', 'PRON')
-Position 24: *('stable', 'VERB')* vs *('stable', 'ADJ')*
-Position 25: *('cuz', 'NOUN')* vs *('cuz', 'X')*
-Position 26: ('we', 'PRON') vs ('we', 'PRON')
-Position 27: ('dropped', 'VERB') vs ('dropped', 'VERB')
-Position 28: ('focus', 'VERB') vs ('focus', 'VERB')
-Position 29: ('on', 'ADP') vs ('on', 'ADP')
-Position 30: *('Apple', 'DET')* vs *('Apple', 'PROPN')*
-Position 31: *('Music', 'NOUN')* vs *('Music', 'PROPN')*
-Position 32: ('as', 'ADP') vs ('as', 'ADP')
-Position 33: ('well', 'ADV') vs ('well', 'ADV')
-Position 34: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') *('Who', 'PRON')* ('is', 'VERB') ('predicted', 'VERB') *('to', 'PRT')* ('remain', 'VERB') ('in', 'ADP') ('the', 'DET') ('top', 'NOUN') ('10', 'NUM') ('of', 'ADP') ('global', 'ADJ') ('200', 'NUM') *('so', 'ADP')* *('please', 'VERB')* ('lets', 'VERB') ('get', 'VERB') ('those', 'DET') ('streams', 'NOUN') ('back', 'ADV') ('to', 'ADP') ('keep', 'VERB') ('it', 'PRON') *('stable', 'VERB')* *('cuz', 'NOUN')* ('we', 'PRON') ('dropped', 'VERB') ('focus', 'VERB') ('on', 'ADP') *('Apple', 'DET')* *('Music', 'NOUN')* ('as', 'ADP') ('well', 'ADV') ('<end>', '<end>') 
+('<start>', '<start>') *('Who', 'X')* ('is', 'VERB') ('predicted', 'VERB') *('to', 'ADP')* ('remain', 'VERB') ('in', 'ADP') ('the', 'DET') ('top', 'NOUN') ('10', 'NUM') ('of', 'ADP') ('global', 'ADJ') ('200', 'NUM') *('so', 'ADV')* *('please', 'ADV')* ('lets', 'VERB') ('get', 'VERB') ('those', 'DET') ('streams', 'NOUN') ('back', 'ADV') ('to', 'ADP') ('keep', 'VERB') ('it', 'PRON') *('stable', 'ADJ')* *('cuz', 'X')* ('we', 'PRON') ('dropped', 'VERB') ('focus', 'VERB') ('on', 'ADP') *('Apple', 'PROPN')* *('Music', 'PROPN')* ('as', 'ADP') ('well', 'ADV') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 8----------------
+-----------------Showing differneces for sample 8----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('She', 'PRON') vs ('She', 'PRON')
-Position 3: ('said', 'VERB') vs ('said', 'VERB')
-Position 4: *('shell', 'NOUN')* vs *('shell', 'VERB')*
-Position 5: ('give', 'VERB') vs ('give', 'VERB')
-Position 6: ('200', 'NUM') vs ('200', 'NUM')
-Position 7: ('for', 'ADP') vs ('for', 'ADP')
-Position 8: ('him', 'PRON') vs ('him', 'PRON')
-Position 9: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 10: ('fix', 'VERB') vs ('fix', 'VERB')
-Position 11: ('it', 'PRON') vs ('it', 'PRON')
-Position 12: ('this', 'DET') vs ('this', 'DET')
-Position 13: ('dude', 'NOUN') vs ('dude', 'NOUN')
-Position 14: ('is', 'VERB') vs ('is', 'VERB')
-Position 15: ('milking', 'VERB') vs ('milking', 'VERB')
-Position 16: ('this', 'DET') vs ('this', 'DET')
-Position 17: ('whole', 'ADJ') vs ('whole', 'ADJ')
-Position 18: ('situation', 'NOUN') vs ('situation', 'NOUN')
-Position 19: *('bro', 'NOUN')* vs *('bro', 'X')*
-Position 20: *('bouta', 'NOUN')* vs *('bouta', 'X')*
-Position 21: ('come', 'VERB') vs ('come', 'VERB')
-Position 22: ('back', 'ADV') vs ('back', 'ADV')
-Position 23: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 24: ('offer', 'VERB') vs ('offer', 'VERB')
-Position 25: ('300', 'NUM') vs ('300', 'NUM')
-Position 26: ('to', 'ADP') vs ('to', 'ADP')
-Position 27: ('just', 'ADV') vs ('just', 'ADV')
-Position 28: ('make', 'VERB') vs ('make', 'VERB')
-Position 29: ('it', 'PRON') vs ('it', 'PRON')
-Position 30: ('blow', 'VERB') vs ('blow', 'VERB')
-Position 31: *('up', 'PRT')* vs *('up', 'ADV')*
-Position 32: *('when', 'ADV')* vs *('when', 'ADP')*
-Position 33: ('she', 'PRON') vs ('she', 'PRON')
-Position 34: ('turns', 'VERB') vs ('turns', 'VERB')
-Position 35: ('it', 'PRON') vs ('it', 'PRON')
-Position 36: ('on', 'ADP') vs ('on', 'ADP')
-Position 37: ('.', '.') vs ('.', '.')
-Position 38: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('She', 'PRON') ('said', 'VERB') *('shell', 'NOUN')* ('give', 'VERB') ('200', 'NUM') ('for', 'ADP') ('him', 'PRON') *('to', 'PRT')* ('fix', 'VERB') ('it', 'PRON') ('this', 'DET') ('dude', 'NOUN') ('is', 'VERB') ('milking', 'VERB') ('this', 'DET') ('whole', 'ADJ') ('situation', 'NOUN') *('bro', 'NOUN')* *('bouta', 'NOUN')* ('come', 'VERB') ('back', 'ADV') ('and', 'CONJ') ('offer', 'VERB') ('300', 'NUM') ('to', 'ADP') ('just', 'ADV') ('make', 'VERB') ('it', 'PRON') ('blow', 'VERB') *('up', 'PRT')* *('when', 'ADV')* ('she', 'PRON') ('turns', 'VERB') ('it', 'PRON') ('on', 'ADP') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('She', 'PRON') ('said', 'VERB') *('shell', 'VERB')* ('give', 'VERB') ('200', 'NUM') ('for', 'ADP') ('him', 'PRON') *('to', 'ADP')* ('fix', 'VERB') ('it', 'PRON') ('this', 'DET') ('dude', 'NOUN') ('is', 'VERB') ('milking', 'VERB') ('this', 'DET') ('whole', 'ADJ') ('situation', 'NOUN') *('bro', 'X')* *('bouta', 'X')* ('come', 'VERB') ('back', 'ADV') ('and', 'CONJ') ('offer', 'VERB') ('300', 'NUM') ('to', 'ADP') ('just', 'ADV') ('make', 'VERB') ('it', 'PRON') ('blow', 'VERB') *('up', 'ADV')* *('when', 'ADP')* ('she', 'PRON') ('turns', 'VERB') ('it', 'PRON') ('on', 'ADP') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 9----------------
+-----------------Showing differneces for sample 9----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('Thank', 'VERB') vs ('Thank', 'VERB')
-Position 3: ('you', 'PRON') vs ('you', 'PRON')
-Position 4: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 5: *('everyone', 'NOUN')* vs *('everyone', 'PRON')*
-Position 6: ('we', 'PRON') vs ('we', 'PRON')
-Position 7: ('have', 'VERB') vs ('have', 'VERB')
-Position 8: ('worked', 'VERB') vs ('worked', 'VERB')
-Position 9: ('with', 'ADP') vs ('with', 'ADP')
-Position 10: ('this', 'DET') vs ('this', 'DET')
-Position 11: ('summer', 'NOUN') vs ('summer', 'NOUN')
-Position 12: ('alongside', 'ADP') vs ('alongside', 'ADP')
-Position 13: *('@CuffeandTaylor5', 'NOUN')* vs *('@CuffeandTaylor5', 'X')*
-Position 14: ('venues', 'NOUN') vs ('venues', 'NOUN')
-Position 15: (':', '.') vs (':', '.')
-Position 16: *('@LythamFestival', 'NOUN')* vs *('@LythamFestival', 'X')*
-Position 17: *('@ThePieceHall', 'NOUN')* vs *('@ThePieceHall', 'X')*
-Position 18: *('@ScarboroughOAT', 'NOUN')* vs *('@ScarboroughOAT', 'X')*
-Position 19: *('@DEPOTLIVE1', 'NOUN')* vs *('@DEPOTLIVE1', 'X')*
-Position 20: ('at', 'ADP') vs ('at', 'ADP')
-Position 21: *('Cardiff', 'NOUN')* vs *('Cardiff', 'PROPN')*
-Position 22: *('Castle', '.')* vs *('Castle', 'PROPN')*
-Position 23: *('@llangollen_Eist', 'NOUN')* vs *('@llangollen_Eist', 'X')*
-Position 24: *('84', 'NOUN')* vs *('84', 'NUM')*
-Position 25: ('headline', 'NOUN') vs ('headline', 'NOUN')
-Position 26: *('shows', 'VERB')* vs *('shows', 'NOUN')*
-Position 27: *('200+', 'VERB')* vs *('200+', 'NUM')*
-Position 28: ('artists', 'NOUN') vs ('artists', 'NOUN')
-Position 29: *('Let’s', 'NOUN')* vs *('Let’s', 'VERB')*
-Position 30: ('get', 'VERB') vs ('get', 'VERB')
-Position 31: ('ready', 'ADJ') vs ('ready', 'ADJ')
-Position 32: ('for', 'ADP') vs ('for', 'ADP')
-Position 33: *('2025', 'NOUN')* vs *('2025', 'NUM')*
-Position 34: ('!', '.') vs ('!', '.')
-Position 35: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('Thank', 'VERB') ('you', 'PRON') *('to', 'PRT')* *('everyone', 'NOUN')* ('we', 'PRON') ('have', 'VERB') ('worked', 'VERB') ('with', 'ADP') ('this', 'DET') ('summer', 'NOUN') ('alongside', 'ADP') *('@CuffeandTaylor5', 'NOUN')* ('venues', 'NOUN') (':', '.') *('@LythamFestival', 'NOUN')* *('@ThePieceHall', 'NOUN')* *('@ScarboroughOAT', 'NOUN')* *('@DEPOTLIVE1', 'NOUN')* ('at', 'ADP') *('Cardiff', 'NOUN')* *('Castle', '.')* *('@llangollen_Eist', 'NOUN')* *('84', 'NOUN')* ('headline', 'NOUN') *('shows', 'VERB')* *('200+', 'VERB')* ('artists', 'NOUN') *('Let’s', 'NOUN')* ('get', 'VERB') ('ready', 'ADJ') ('for', 'ADP') *('2025', 'NOUN')* ('!', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('Thank', 'VERB') ('you', 'PRON') *('to', 'ADP')* *('everyone', 'PRON')* ('we', 'PRON') ('have', 'VERB') ('worked', 'VERB') ('with', 'ADP') ('this', 'DET') ('summer', 'NOUN') ('alongside', 'ADP') *('@CuffeandTaylor5', 'X')* ('venues', 'NOUN') (':', '.') *('@LythamFestival', 'X')* *('@ThePieceHall', 'X')* *('@ScarboroughOAT', 'X')* *('@DEPOTLIVE1', 'X')* ('at', 'ADP') *('Cardiff', 'PROPN')* *('Castle', 'PROPN')* *('@llangollen_Eist', 'X')* *('84', 'NUM')* ('headline', 'NOUN') *('shows', 'NOUN')* *('200+', 'NUM')* ('artists', 'NOUN') *('Let’s', 'VERB')* ('get', 'VERB') ('ready', 'ADJ') ('for', 'ADP') *('2025', 'NUM')* ('!', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 10----------------
+-----------------Showing differneces for sample 10----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('Kudos', 'NOUN') vs ('Kudos', 'NOUN')
-Position 3: ('to', 'ADP') vs ('to', 'ADP')
-Position 4: *('PreetiPal', 'NOUN')* vs *('PreetiPal', 'PROPN')*
-Position 5: ('on', 'ADP') vs ('on', 'ADP')
-Position 6: *('her', 'DET')* vs *('her', 'PRON')*
-Position 7: ('second', 'ADJ') vs ('second', 'ADJ')
-Position 8: ('medal', 'NOUN') vs ('medal', 'NOUN')
-Position 9: *('win', 'VERB')* vs *('win', 'NOUN')*
-Position 10: ('at', 'ADP') vs ('at', 'ADP')
-Position 11: ('the', 'DET') vs ('the', 'DET')
-Position 12: *('ParisParalympics2024', 'NOUN')* vs *('ParisParalympics2024', 'X')*
-Position 13: ('.', '.') vs ('.', '.')
-Position 14: *('Congratulations', '<end>')* vs *('Congratulations', 'NOUN')*
-Position 15: ('on', 'ADP') vs ('on', 'ADP')
-Position 16: ('this', 'DET') vs ('this', 'DET')
-Position 17: ('historic', 'ADJ') vs ('historic', 'ADJ')
-Position 18: ('win', 'NOUN') vs ('win', 'NOUN')
-Position 19: ('at', 'ADP') vs ('at', 'ADP')
-Position 20: *("Women's", 'NOUN')* vs *("Women's", 'PROPN')*
-Position 21: ('200', 'NUM') vs ('200', 'NUM')
-Position 22: *('m', 'NOUN')* vs *('m', 'X')*
-Position 23: *('-', 'ADP')* vs *('-', 'X')*
-Position 24: *('T35', 'NOUN')* vs *('T35', 'X')*
-Position 25: *('Final', '.')* vs *('Final', 'NOUN')*
-Position 26: ('representing', 'VERB') vs ('representing', 'VERB')
-Position 27: *('Bharat', 'NOUN')* vs *('Bharat', 'PROPN')*
-Position 28: ('.', '.') vs ('.', '.')
-Position 29: *('Best', '<end>')* vs *('Best', 'ADJ')*
-Position 30: ('wishes', 'NOUN') vs ('wishes', 'NOUN')
-Position 31: ('for', 'ADP') vs ('for', 'ADP')
-Position 32: *('her', 'DET')* vs *('her', 'PRON')*
-Position 33: *('shining', 'VERB')* vs *('shining', 'ADJ')*
-Position 34: ('career', 'NOUN') vs ('career', 'NOUN')
-Position 35: ('ahead', 'ADV') vs ('ahead', 'ADV')
-Position 36: ('.', '.') vs ('.', '.')
-Position 37: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('Kudos', 'NOUN') ('to', 'ADP') *('PreetiPal', 'NOUN')* ('on', 'ADP') *('her', 'DET')* ('second', 'ADJ') ('medal', 'NOUN') *('win', 'VERB')* ('at', 'ADP') ('the', 'DET') *('ParisParalympics2024', 'NOUN')* ('.', '.') *('Congratulations', '<end>')* ('on', 'ADP') ('this', 'DET') ('historic', 'ADJ') ('win', 'NOUN') ('at', 'ADP') *("Women's", 'NOUN')* ('200', 'NUM') *('m', 'NOUN')* *('-', 'ADP')* *('T35', 'NOUN')* *('Final', '.')* ('representing', 'VERB') *('Bharat', 'NOUN')* ('.', '.') *('Best', '<end>')* ('wishes', 'NOUN') ('for', 'ADP') *('her', 'DET')* *('shining', 'VERB')* ('career', 'NOUN') ('ahead', 'ADV') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('Kudos', 'NOUN') ('to', 'ADP') *('PreetiPal', 'PROPN')* ('on', 'ADP') *('her', 'PRON')* ('second', 'ADJ') ('medal', 'NOUN') *('win', 'NOUN')* ('at', 'ADP') ('the', 'DET') *('ParisParalympics2024', 'X')* ('.', '.') *('Congratulations', 'NOUN')* ('on', 'ADP') ('this', 'DET') ('historic', 'ADJ') ('win', 'NOUN') ('at', 'ADP') *("Women's", 'PROPN')* ('200', 'NUM') *('m', 'X')* *('-', 'X')* *('T35', 'X')* *('Final', 'NOUN')* ('representing', 'VERB') *('Bharat', 'PROPN')* ('.', '.') *('Best', 'ADJ')* ('wishes', 'NOUN') ('for', 'ADP') *('her', 'PRON')* *('shining', 'ADJ')* ('career', 'NOUN') ('ahead', 'ADV') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 11----------------
+-----------------Showing differneces for sample 11----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: *('Celebrating', 'NOUN')* vs *('Celebrating', 'VERB')*
-Position 3: ('25', 'NUM') vs ('25', 'NUM')
-Position 4: ('years', 'NOUN') vs ('years', 'NOUN')
-Position 5: ('of', 'ADP') vs ('of', 'ADP')
-Position 6: ('legacy', 'NOUN') vs ('legacy', 'NOUN')
-Position 7: ('we', 'PRON') vs ('we', 'PRON')
-Position 8: ('aim', 'VERB') vs ('aim', 'VERB')
-Position 9: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 10: ('quadruple', 'VERB') vs ('quadruple', 'VERB')
-Position 11: *('net', 'NOUN')* vs *('net', 'ADJ')*
-Position 12: ('profits', 'NOUN') vs ('profits', 'NOUN')
-Position 13: ('to', 'ADP') vs ('to', 'ADP')
-Position 14: *('₹200', 'NOUN')* vs *('₹200', 'NUM')*
-Position 15: ('crore', 'NOUN') vs ('crore', 'NOUN')
-Position 16: ('by', 'ADP') vs ('by', 'ADP')
-Position 17: ('FY27', 'NOUN') vs ('FY27', 'NOUN')
-Position 18: ('.', '.') vs ('.', '.')
-Position 19: *('Our', 'DET')* vs *('Our', 'PRON')*
-Position 20: ('CEO', 'NOUN') vs ('CEO', 'NOUN')
-Position 21: ('J', 'NOUN') vs ('J', 'NOUN')
-Position 22: ('Gopalakrishnan', 'NOUN') vs ('Gopalakrishnan', 'NOUN')
-Position 23: ('unveiled', 'VERB') vs ('unveiled', 'VERB')
-Position 24: ('SPLNxT', 'NOUN') vs ('SPLNxT', 'NOUN')
-Position 25: *('targeting', 'NOUN')* vs *('targeting', 'VERB')*
-Position 26: *('₹5,000', 'NOUN')* vs *('₹5,000', 'NUM')*
-Position 27: ('crore', 'NOUN') vs ('crore', 'NOUN')
-Position 28: ('in', 'ADP') vs ('in', 'ADP')
-Position 29: ('sales', 'NOUN') vs ('sales', 'NOUN')
-Position 30: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 31: *('8-9', 'NOUN')* vs *('8-9', 'NUM')*
-Position 32: ('million', 'NUM') vs ('million', 'NUM')
-Position 33: *('sq.', 'ADJ')* vs *('sq.', 'NOUN')*
-Position 34: ('ft.', 'NOUN') vs ('ft.', 'NOUN')
-Position 35: ('annually', 'ADV') vs ('annually', 'ADV')
-Position 36: ('.', '.') vs ('.', '.')
-Position 37: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') *('Celebrating', 'NOUN')* ('25', 'NUM') ('years', 'NOUN') ('of', 'ADP') ('legacy', 'NOUN') ('we', 'PRON') ('aim', 'VERB') *('to', 'PRT')* ('quadruple', 'VERB') *('net', 'NOUN')* ('profits', 'NOUN') ('to', 'ADP') *('₹200', 'NOUN')* ('crore', 'NOUN') ('by', 'ADP') ('FY27', 'NOUN') ('.', '.') *('Our', 'DET')* ('CEO', 'NOUN') ('J', 'NOUN') ('Gopalakrishnan', 'NOUN') ('unveiled', 'VERB') ('SPLNxT', 'NOUN') *('targeting', 'NOUN')* *('₹5,000', 'NOUN')* ('crore', 'NOUN') ('in', 'ADP') ('sales', 'NOUN') ('and', 'CONJ') *('8-9', 'NOUN')* ('million', 'NUM') *('sq.', 'ADJ')* ('ft.', 'NOUN') ('annually', 'ADV') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') *('Celebrating', 'VERB')* ('25', 'NUM') ('years', 'NOUN') ('of', 'ADP') ('legacy', 'NOUN') ('we', 'PRON') ('aim', 'VERB') *('to', 'ADP')* ('quadruple', 'VERB') *('net', 'ADJ')* ('profits', 'NOUN') ('to', 'ADP') *('₹200', 'NUM')* ('crore', 'NOUN') ('by', 'ADP') ('FY27', 'NOUN') ('.', '.') *('Our', 'PRON')* ('CEO', 'NOUN') ('J', 'NOUN') ('Gopalakrishnan', 'NOUN') ('unveiled', 'VERB') ('SPLNxT', 'NOUN') *('targeting', 'VERB')* *('₹5,000', 'NUM')* ('crore', 'NOUN') ('in', 'ADP') ('sales', 'NOUN') ('and', 'CONJ') *('8-9', 'NUM')* ('million', 'NUM') *('sq.', 'NOUN')* ('ft.', 'NOUN') ('annually', 'ADV') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 12----------------
+-----------------Showing differneces for sample 12----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('For', 'ADP') vs ('For', 'ADP')
-Position 3: ('the', 'DET') vs ('the', 'DET')
-Position 4: ('first', 'ADJ') vs ('first', 'ADJ')
-Position 5: ('time', 'NOUN') vs ('time', 'NOUN')
-Position 6: ('the', 'DET') vs ('the', 'DET')
-Position 7: *('public', 'ADJ')* vs *('public', 'NOUN')*
-Position 8: ('include', 'VERB') vs ('include', 'VERB')
-Position 9: *('£200/yr', 'VERB')* vs *('£200/yr', 'NUM')*
-Position 10: ('for', 'ADP') vs ('for', 'ADP')
-Position 11: ('health', 'NOUN') vs ('health', 'NOUN')
-Position 12: ('costs', 'NOUN') vs ('costs', 'NOUN')
-Position 13: ('like', 'ADP') vs ('like', 'ADP')
-Position 14: ('private', 'ADJ') vs ('private', 'ADJ')
-Position 15: ('dentistry', 'NOUN') vs ('dentistry', 'NOUN')
-Position 16: ('physio', 'NOUN') vs ('physio', 'NOUN')
-Position 17: ('&', 'CONJ') vs ('&', 'CONJ')
-Position 18: ('counselling', 'NOUN') vs ('counselling', 'NOUN')
-Position 19: ('because', 'ADP') vs ('because', 'ADP')
-Position 20: ('they', 'PRON') vs ('they', 'PRON')
-Position 21: *('no', 'DET')* vs *('no', 'ADV')*
-Position 22: *('longer', 'ADJ')* vs *('longer', 'ADV')*
-Position 23: ('think', 'VERB') vs ('think', 'VERB')
-Position 24: ('it', 'PRON') vs ('it', 'PRON')
-Position 25: *('’s', 'VERB')* vs *('’s', 'PRON')*
-Position 26: ('a', 'DET') vs ('a', 'DET')
-Position 27: *('given', 'VERB')* vs *('given', 'ADJ')*
-Position 28: ('you', 'PRON') vs ('you', 'PRON')
-Position 29: ('can', 'VERB') vs ('can', 'VERB')
-Position 30: *('access', 'NOUN')* vs *('access', 'VERB')*
-Position 31: ('them', 'PRON') vs ('them', 'PRON')
-Position 32: ('in', 'ADP') vs ('in', 'ADP')
-Position 33: ('good', 'ADJ') vs ('good', 'ADJ')
-Position 34: ('time', 'NOUN') vs ('time', 'NOUN')
-Position 35: ('on', 'ADP') vs ('on', 'ADP')
-Position 36: ('the', 'DET') vs ('the', 'DET')
-Position 37: ('NHS', 'NOUN') vs ('NHS', 'NOUN')
-Position 38: ('.', '.') vs ('.', '.')
-Position 39: ('And', 'CONJ') vs ('And', 'CONJ')
-Position 40: *('those', 'DET')* vs *('those', 'PRON')*
-Position 41: ('on', 'ADP') vs ('on', 'ADP')
-Position 42: ('low', 'ADJ') vs ('low', 'ADJ')
-Position 43: ('incomes', 'NOUN') vs ('incomes', 'NOUN')
-Position 44: ('are', 'VERB') vs ('are', 'VERB')
-Position 45: *('bang', 'VERB')* vs *('bang', 'ADV')*
-Position 46: *('out', 'PRT')* vs *('out', 'ADP')*
-Position 47: ('of', 'ADP') vs ('of', 'ADP')
-Position 48: ('luck', 'NOUN') vs ('luck', 'NOUN')
-Position 49: ('because', 'ADP') vs ('because', 'ADP')
-Position 50: *('…', 'NOUN')* vs *('…', '.')*
+('<start>', '<start>') ('For', 'ADP') ('the', 'DET') ('first', 'ADJ') ('time', 'NOUN') ('the', 'DET') *('public', 'ADJ')* ('include', 'VERB') *('£200/yr', 'VERB')* ('for', 'ADP') ('health', 'NOUN') ('costs', 'NOUN') ('like', 'ADP') ('private', 'ADJ') ('dentistry', 'NOUN') ('physio', 'NOUN') ('&', 'CONJ') ('counselling', 'NOUN') ('because', 'ADP') ('they', 'PRON') *('no', 'DET')* *('longer', 'ADJ')* ('think', 'VERB') ('it', 'PRON') *('’s', 'VERB')* ('a', 'DET') *('given', 'VERB')* ('you', 'PRON') ('can', 'VERB') *('access', 'NOUN')* ('them', 'PRON') ('in', 'ADP') ('good', 'ADJ') ('time', 'NOUN') ('on', 'ADP') ('the', 'DET') ('NHS', 'NOUN') ('.', '.') ('And', 'CONJ') *('those', 'DET')* ('on', 'ADP') ('low', 'ADJ') ('incomes', 'NOUN') ('are', 'VERB') *('bang', 'VERB')* *('out', 'PRT')* ('of', 'ADP') ('luck', 'NOUN') ('because', 'ADP') *('…', 'NOUN')* 
+('<start>', '<start>') ('For', 'ADP') ('the', 'DET') ('first', 'ADJ') ('time', 'NOUN') ('the', 'DET') *('public', 'NOUN')* ('include', 'VERB') *('£200/yr', 'NUM')* ('for', 'ADP') ('health', 'NOUN') ('costs', 'NOUN') ('like', 'ADP') ('private', 'ADJ') ('dentistry', 'NOUN') ('physio', 'NOUN') ('&', 'CONJ') ('counselling', 'NOUN') ('because', 'ADP') ('they', 'PRON') *('no', 'ADV')* *('longer', 'ADV')* ('think', 'VERB') ('it', 'PRON') *('’s', 'PRON')* ('a', 'DET') *('given', 'ADJ')* ('you', 'PRON') ('can', 'VERB') *('access', 'VERB')* ('them', 'PRON') ('in', 'ADP') ('good', 'ADJ') ('time', 'NOUN') ('on', 'ADP') ('the', 'DET') ('NHS', 'NOUN') ('.', '.') ('And', 'CONJ') *('those', 'PRON')* ('on', 'ADP') ('low', 'ADJ') ('incomes', 'NOUN') ('are', 'VERB') *('bang', 'ADV')* *('out', 'ADP')* ('of', 'ADP') ('luck', 'NOUN') ('because', 'ADP') *('…', '.')* 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 13----------------
+-----------------Showing differneces for sample 13----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('Chelsea', 'NOUN') vs ('Chelsea', 'NOUN')
-Position 3: ('topped', 'VERB') vs ('topped', 'VERB')
-Position 4: ('the', 'DET') vs ('the', 'DET')
-Position 5: ('Premier', 'NOUN') vs ('Premier', 'NOUN')
-Position 6: ('League', 'NOUN') vs ('League', 'NOUN')
-Position 7: *('summer', 'NOUN')* vs *('summer', 'ADJ')*
-Position 8: *('spending', 'VERB')* vs *('spending', 'NOUN')*
-Position 9: ('table', 'NOUN') vs ('table', 'NOUN')
-Position 10: ('with', 'ADP') vs ('with', 'ADP')
-Position 11: ('a', 'DET') vs ('a', 'DET')
-Position 12: ('whopping', 'ADJ') vs ('whopping', 'ADJ')
-Position 13: *('£200.8m', 'NOUN')* vs *('£200.8m', 'NUM')*
-Position 14: ('signing', 'VERB') vs ('signing', 'VERB')
-Position 15: ('11', 'NUM') vs ('11', 'NUM')
-Position 16: ('new', 'ADJ') vs ('new', 'ADJ')
-Position 17: ('players', 'NOUN') vs ('players', 'NOUN')
-Position 18: *('including', 'ADP')* vs *('including', 'VERB')*
-Position 19: ('Pedro', 'NOUN') vs ('Pedro', 'NOUN')
-Position 20: ('Neto', 'NOUN') vs ('Neto', 'NOUN')
-Position 21: *('(£50.5m', 'NOUN')* vs *('(£50.5m', 'NUM')*
-Position 22: (')', '.') vs (')', '.')
-Position 23: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 24: ('Jadon', 'NOUN') vs ('Jadon', 'NOUN')
-Position 25: ('Sancho', 'NOUN') vs ('Sancho', 'NOUN')
-Position 26: ('on', 'ADP') vs ('on', 'ADP')
-Position 27: ('loan', 'NOUN') vs ('loan', 'NOUN')
-Position 28: ('.', '.') vs ('.', '.')
-Position 29: ('Tottenham', 'NOUN') vs ('Tottenham', 'NOUN')
-Position 30: ('followed', 'VERB') vs ('followed', 'VERB')
-Position 31: ('with', 'ADP') vs ('with', 'ADP')
-Position 32: *('£125.2m', 'NOUN')* vs *('£125.2m', 'NUM')*
-Position 33: *('while', 'ADP')* vs *('while', 'CONJ')*
-Position 34: ('Arsenal', 'NOUN') vs ('Arsenal', 'NOUN')
-Position 35: ('spent', 'VERB') vs ('spent', 'VERB')
-Position 36: *('£91.6m', 'VERB')* vs *('£91.6m', 'NUM')*
-Position 37: ('ranking', 'VERB') vs ('ranking', 'VERB')
-Position 38: ('them', 'PRON') vs ('them', 'PRON')
-Position 39: ('in', 'ADP') vs ('in', 'ADP')
-Position 40: ('the', 'DET') vs ('the', 'DET')
-Position 41: *('middle', 'NOUN')* vs *('middle', 'ADJ')*
-Position 42: ('.', '.') vs ('.', '.')
-Position 43: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('Chelsea', 'NOUN') ('topped', 'VERB') ('the', 'DET') ('Premier', 'NOUN') ('League', 'NOUN') *('summer', 'NOUN')* *('spending', 'VERB')* ('table', 'NOUN') ('with', 'ADP') ('a', 'DET') ('whopping', 'ADJ') *('£200.8m', 'NOUN')* ('signing', 'VERB') ('11', 'NUM') ('new', 'ADJ') ('players', 'NOUN') *('including', 'ADP')* ('Pedro', 'NOUN') ('Neto', 'NOUN') *('(£50.5m', 'NOUN')* (')', '.') ('and', 'CONJ') ('Jadon', 'NOUN') ('Sancho', 'NOUN') ('on', 'ADP') ('loan', 'NOUN') ('.', '.') ('Tottenham', 'NOUN') ('followed', 'VERB') ('with', 'ADP') *('£125.2m', 'NOUN')* *('while', 'ADP')* ('Arsenal', 'NOUN') ('spent', 'VERB') *('£91.6m', 'VERB')* ('ranking', 'VERB') ('them', 'PRON') ('in', 'ADP') ('the', 'DET') *('middle', 'NOUN')* ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('Chelsea', 'NOUN') ('topped', 'VERB') ('the', 'DET') ('Premier', 'NOUN') ('League', 'NOUN') *('summer', 'ADJ')* *('spending', 'NOUN')* ('table', 'NOUN') ('with', 'ADP') ('a', 'DET') ('whopping', 'ADJ') *('£200.8m', 'NUM')* ('signing', 'VERB') ('11', 'NUM') ('new', 'ADJ') ('players', 'NOUN') *('including', 'VERB')* ('Pedro', 'NOUN') ('Neto', 'NOUN') *('(£50.5m', 'NUM')* (')', '.') ('and', 'CONJ') ('Jadon', 'NOUN') ('Sancho', 'NOUN') ('on', 'ADP') ('loan', 'NOUN') ('.', '.') ('Tottenham', 'NOUN') ('followed', 'VERB') ('with', 'ADP') *('£125.2m', 'NUM')* *('while', 'CONJ')* ('Arsenal', 'NOUN') ('spent', 'VERB') *('£91.6m', 'NUM')* ('ranking', 'VERB') ('them', 'PRON') ('in', 'ADP') ('the', 'DET') *('middle', 'ADJ')* ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 14----------------
+-----------------Showing differneces for sample 14----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('In', 'ADP') vs ('In', 'ADP')
-Position 3: ('the', 'DET') vs ('the', 'DET')
-Position 4: ('light', 'NOUN') vs ('light', 'NOUN')
-Position 5: ('of', 'ADP') vs ('of', 'ADP')
-Position 6: ('reports', 'NOUN') vs ('reports', 'NOUN')
-Position 7: ('of', 'ADP') vs ('of', 'ADP')
-Position 8: ('inappropriate', 'ADJ') vs ('inappropriate', 'ADJ')
-Position 9: ('kannada', 'NOUN') vs ('kannada', 'NOUN')
-Position 10: ('translation', 'NOUN') vs ('translation', 'NOUN')
-Position 11: ('of', 'ADP') vs ('of', 'ADP')
-Position 12: ('questions', 'NOUN') vs ('questions', 'NOUN')
-Position 13: ('in', 'ADP') vs ('in', 'ADP')
-Position 14: ('the', 'DET') vs ('the', 'DET')
-Position 15: ('KPSC', 'NOUN') vs ('KPSC', 'NOUN')
-Position 16: ('Gazetted', 'NOUN') vs ('Gazetted', 'NOUN')
-Position 17: ('Probationers', 'NOUN') vs ('Probationers', 'NOUN')
-Position 18: *('', 'NOUN')* vs *('', 'PRON')*
-Position 19: ('examination', 'NOUN') vs ('examination', 'NOUN')
-Position 20: ('I', 'PRON') vs ('I', 'PRON')
-Position 21: ('have', 'VERB') vs ('have', 'VERB')
-Position 22: ('directed', 'VERB') vs ('directed', 'VERB')
-Position 23: *('KPSC', 'VERB')* vs *('KPSC', 'NOUN')*
-Position 24: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 25: ('reconduct', 'VERB') vs ('reconduct', 'VERB')
-Position 26: ('of', 'ADP') vs ('of', 'ADP')
-Position 27: ('the', 'DET') vs ('the', 'DET')
-Position 28: ('examination', 'NOUN') vs ('examination', 'NOUN')
-Position 29: ('within', 'ADP') vs ('within', 'ADP')
-Position 30: ('2', 'NUM') vs ('2', 'NUM')
-Position 31: ('months', 'NOUN') vs ('months', 'NOUN')
-Position 32: ('to', 'ADP') vs ('to', 'ADP')
-Position 33: ('ensure', 'VERB') vs ('ensure', 'VERB')
-Position 34: ('fairness', 'NOUN') vs ('fairness', 'NOUN')
-Position 35: ('to', 'ADP') vs ('to', 'ADP')
-Position 36: *('all', 'PRT')* vs *('all', 'DET')*
-Position 37: ('candidates', 'NOUN') vs ('candidates', 'NOUN')
-Position 38: ('.', '.') vs ('.', '.')
-Position 39: ('Those', 'DET') vs ('Those', 'DET')
-Position 40: ('responsible', 'ADJ') vs ('responsible', 'ADJ')
-Position 41: ('for', 'ADP') vs ('for', 'ADP')
-Position 42: ('these', 'DET') vs ('these', 'DET')
-Position 43: ('lapses', 'NOUN') vs ('lapses', 'NOUN')
-Position 44: ('have', 'VERB') vs ('have', 'VERB')
-Position 45: ('been', 'VERB') vs ('been', 'VERB')
-Position 46: ('relieved', 'VERB') vs ('relieved', 'VERB')
-Position 47: ('of', 'ADP') vs ('of', 'ADP')
-Position 48: *('their', 'DET')* vs *('their', 'PRON')*
-Position 49: ('duties', 'NOUN') vs ('duties', 'NOUN')
-Position 50: ('.', '.') vs ('.', '.')
-Position 51: ('The', 'DET') vs ('The', 'DET')
-Position 52: ('upcoming', 'ADJ') vs ('upcoming', 'ADJ')
-Position 53: ('examination', 'NOUN') vs ('examination', 'NOUN')
-Position 54: ('will', 'VERB') vs ('will', 'VERB')
-Position 55: ('be', 'VERB') vs ('be', 'VERB')
-Position 56: ('conducted', 'VERB') vs ('conducted', 'VERB')
-Position 57: ('with', 'ADP') vs ('with', 'ADP')
-Position 58: ('the', 'DET') vs ('the', 'DET')
-Position 59: ('utmost', 'ADJ') vs ('utmost', 'ADJ')
-Position 60: ('responsibility', 'NOUN') vs ('responsibility', 'NOUN')
-Position 61: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 62: ('accountability', 'NOUN') vs ('accountability', 'NOUN')
-Position 63: ('following', 'VERB') vs ('following', 'VERB')
-Position 64: *('all', 'PRT')* vs *('all', 'DET')*
-Position 65: ('due', 'ADJ') vs ('due', 'ADJ')
-Position 66: ('diligence', 'NOUN') vs ('diligence', 'NOUN')
-Position 67: ('.', '.') vs ('.', '.')
-Position 68: ('We', 'PRON') vs ('We', 'PRON')
-Position 69: ('remain', 'VERB') vs ('remain', 'VERB')
-Position 70: ('committed', 'VERB') vs ('committed', 'VERB')
-Position 71: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 72: ('upholding', 'VERB') vs ('upholding', 'VERB')
-Position 73: ('the', 'DET') vs ('the', 'DET')
-Position 74: ('integrity', 'NOUN') vs ('integrity', 'NOUN')
-Position 75: ('of', 'ADP') vs ('of', 'ADP')
-Position 76: *('our', 'DET')* vs *('our', 'PRON')*
-Position 77: ('recruitment', 'NOUN') vs ('recruitment', 'NOUN')
-Position 78: ('processes', 'NOUN') vs ('processes', 'NOUN')
-Position 79: ('.', '.') vs ('.', '.')
-Position 80: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('In', 'ADP') ('the', 'DET') ('light', 'NOUN') ('of', 'ADP') ('reports', 'NOUN') ('of', 'ADP') ('inappropriate', 'ADJ') ('kannada', 'NOUN') ('translation', 'NOUN') ('of', 'ADP') ('questions', 'NOUN') ('in', 'ADP') ('the', 'DET') ('KPSC', 'NOUN') ('Gazetted', 'NOUN') ('Probationers', 'NOUN') *('', 'NOUN')* ('examination', 'NOUN') ('I', 'PRON') ('have', 'VERB') ('directed', 'VERB') *('KPSC', 'VERB')* *('to', 'PRT')* ('reconduct', 'VERB') ('of', 'ADP') ('the', 'DET') ('examination', 'NOUN') ('within', 'ADP') ('2', 'NUM') ('months', 'NOUN') ('to', 'ADP') ('ensure', 'VERB') ('fairness', 'NOUN') ('to', 'ADP') *('all', 'PRT')* ('candidates', 'NOUN') ('.', '.') ('Those', 'DET') ('responsible', 'ADJ') ('for', 'ADP') ('these', 'DET') ('lapses', 'NOUN') ('have', 'VERB') ('been', 'VERB') ('relieved', 'VERB') ('of', 'ADP') *('their', 'DET')* ('duties', 'NOUN') ('.', '.') ('The', 'DET') ('upcoming', 'ADJ') ('examination', 'NOUN') ('will', 'VERB') ('be', 'VERB') ('conducted', 'VERB') ('with', 'ADP') ('the', 'DET') ('utmost', 'ADJ') ('responsibility', 'NOUN') ('and', 'CONJ') ('accountability', 'NOUN') ('following', 'VERB') *('all', 'PRT')* ('due', 'ADJ') ('diligence', 'NOUN') ('.', '.') ('We', 'PRON') ('remain', 'VERB') ('committed', 'VERB') *('to', 'PRT')* ('upholding', 'VERB') ('the', 'DET') ('integrity', 'NOUN') ('of', 'ADP') *('our', 'DET')* ('recruitment', 'NOUN') ('processes', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('In', 'ADP') ('the', 'DET') ('light', 'NOUN') ('of', 'ADP') ('reports', 'NOUN') ('of', 'ADP') ('inappropriate', 'ADJ') ('kannada', 'NOUN') ('translation', 'NOUN') ('of', 'ADP') ('questions', 'NOUN') ('in', 'ADP') ('the', 'DET') ('KPSC', 'NOUN') ('Gazetted', 'NOUN') ('Probationers', 'NOUN') *('', 'PRON')* ('examination', 'NOUN') ('I', 'PRON') ('have', 'VERB') ('directed', 'VERB') *('KPSC', 'NOUN')* *('to', 'ADP')* ('reconduct', 'VERB') ('of', 'ADP') ('the', 'DET') ('examination', 'NOUN') ('within', 'ADP') ('2', 'NUM') ('months', 'NOUN') ('to', 'ADP') ('ensure', 'VERB') ('fairness', 'NOUN') ('to', 'ADP') *('all', 'DET')* ('candidates', 'NOUN') ('.', '.') ('Those', 'DET') ('responsible', 'ADJ') ('for', 'ADP') ('these', 'DET') ('lapses', 'NOUN') ('have', 'VERB') ('been', 'VERB') ('relieved', 'VERB') ('of', 'ADP') *('their', 'PRON')* ('duties', 'NOUN') ('.', '.') ('The', 'DET') ('upcoming', 'ADJ') ('examination', 'NOUN') ('will', 'VERB') ('be', 'VERB') ('conducted', 'VERB') ('with', 'ADP') ('the', 'DET') ('utmost', 'ADJ') ('responsibility', 'NOUN') ('and', 'CONJ') ('accountability', 'NOUN') ('following', 'VERB') *('all', 'DET')* ('due', 'ADJ') ('diligence', 'NOUN') ('.', '.') ('We', 'PRON') ('remain', 'VERB') ('committed', 'VERB') *('to', 'ADP')* ('upholding', 'VERB') ('the', 'DET') ('integrity', 'NOUN') ('of', 'ADP') *('our', 'PRON')* ('recruitment', 'NOUN') ('processes', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 15----------------
+-----------------Showing differneces for sample 15----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('I', 'PRON') vs ('I', 'PRON')
-Position 3: ('think', 'VERB') vs ('think', 'VERB')
-Position 4: ('he', 'PRON') vs ('he', 'PRON')
-Position 5: ('will', 'VERB') vs ('will', 'VERB')
-Position 6: ('come', 'VERB') vs ('come', 'VERB')
-Position 7: *('out', 'PRT')* vs *('out', 'ADP')*
-Position 8: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 9: ('they', 'PRON') vs ('they', 'PRON')
-Position 10: ('may', 'VERB') vs ('may', 'VERB')
-Position 11: ('yet', 'ADV') vs ('yet', 'ADV')
-Position 12: ('make', 'VERB') vs ('make', 'VERB')
-Position 13: ('a', 'DET') vs ('a', 'DET')
-Position 14: ('game', 'NOUN') vs ('game', 'NOUN')
-Position 15: ('out', 'ADP') vs ('out', 'ADP')
-Position 16: ('of', 'ADP') vs ('of', 'ADP')
-Position 17: ('this', 'DET') vs ('this', 'DET')
-Position 18: ('if', 'ADP') vs ('if', 'ADP')
-Position 19: ('they', 'PRON') vs ('they', 'PRON')
-Position 20: ('get', 'VERB') vs ('get', 'VERB')
-Position 21: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 22: ('200', 'NUM') vs ('200', 'NUM')
-Position 23: ('but', 'CONJ') vs ('but', 'CONJ')
-Position 24: ('the', 'DET') vs ('the', 'DET')
-Position 25: ('inept', 'ADJ') vs ('inept', 'ADJ')
-Position 26: *('batting', 'VERB')* vs *('batting', 'NOUN')*
-Position 27: ('is', 'VERB') vs ('is', 'VERB')
-Position 28: ('leaving', 'VERB') vs ('leaving', 'VERB')
-Position 29: ('too', 'ADV') vs ('too', 'ADV')
-Position 30: *('much', 'ADJ')* vs *('much', 'ADV')*
-Position 31: ('to', 'ADP') vs ('to', 'ADP')
-Position 32: ('do', 'VERB') vs ('do', 'VERB')
-Position 33: ('in', 'ADP') vs ('in', 'ADP')
-Position 34: ('the', 'DET') vs ('the', 'DET')
-Position 35: ('final', 'ADJ') vs ('final', 'ADJ')
-Position 36: ('analysis', 'NOUN') vs ('analysis', 'NOUN')
-Position 37: ('.', '.') vs ('.', '.')
-Position 38: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('I', 'PRON') ('think', 'VERB') ('he', 'PRON') ('will', 'VERB') ('come', 'VERB') *('out', 'PRT')* ('and', 'CONJ') ('they', 'PRON') ('may', 'VERB') ('yet', 'ADV') ('make', 'VERB') ('a', 'DET') ('game', 'NOUN') ('out', 'ADP') ('of', 'ADP') ('this', 'DET') ('if', 'ADP') ('they', 'PRON') ('get', 'VERB') *('to', 'PRT')* ('200', 'NUM') ('but', 'CONJ') ('the', 'DET') ('inept', 'ADJ') *('batting', 'VERB')* ('is', 'VERB') ('leaving', 'VERB') ('too', 'ADV') *('much', 'ADJ')* ('to', 'ADP') ('do', 'VERB') ('in', 'ADP') ('the', 'DET') ('final', 'ADJ') ('analysis', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('I', 'PRON') ('think', 'VERB') ('he', 'PRON') ('will', 'VERB') ('come', 'VERB') *('out', 'ADP')* ('and', 'CONJ') ('they', 'PRON') ('may', 'VERB') ('yet', 'ADV') ('make', 'VERB') ('a', 'DET') ('game', 'NOUN') ('out', 'ADP') ('of', 'ADP') ('this', 'DET') ('if', 'ADP') ('they', 'PRON') ('get', 'VERB') *('to', 'ADP')* ('200', 'NUM') ('but', 'CONJ') ('the', 'DET') ('inept', 'ADJ') *('batting', 'NOUN')* ('is', 'VERB') ('leaving', 'VERB') ('too', 'ADV') *('much', 'ADV')* ('to', 'ADP') ('do', 'VERB') ('in', 'ADP') ('the', 'DET') ('final', 'ADJ') ('analysis', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 16----------------
+-----------------Showing differneces for sample 16----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('On', 'ADP') vs ('On', 'ADP')
-Position 3: *('no.2', 'NOUN')* vs *('no.2', 'NUM')*
-Position 4: *('Aggregate', '.')* vs *('Aggregate', 'NOUN')*
-Position 5: *('Demand', '<end>')* vs *('Demand', 'NOUN')*
-Position 6: ('also', 'ADV') vs ('also', 'ADV')
-Position 7: ('fell', 'VERB') vs ('fell', 'VERB')
-Position 8: ('in', 'ADP') vs ('in', 'ADP')
-Position 9: *('Developed', 'DET')* vs *('Developed', 'ADJ')*
-Position 10: ('Countries', 'NOUN') vs ('Countries', 'NOUN')
-Position 11: ('during', 'ADP') vs ('during', 'ADP')
-Position 12: ('Covid', 'NOUN') vs ('Covid', 'NOUN')
-Position 13: ('&', 'CONJ') vs ('&', 'CONJ')
-Position 14: ('after', 'ADP') vs ('after', 'ADP')
-Position 15: *('!', '.')* vs *('!', 'PUNCT')*
-Position 16: ('I', 'PRON') vs ('I', 'PRON')
-Position 17: ('ve', 'VERB') vs ('ve', 'VERB')
-Position 18: ('never', 'ADV') vs ('never', 'ADV')
-Position 19: ('had', 'VERB') vs ('had', 'VERB')
-Position 20: ('a', 'DET') vs ('a', 'DET')
-Position 21: ('problem', 'NOUN') vs ('problem', 'NOUN')
-Position 22: ('with', 'ADP') vs ('with', 'ADP')
-Position 23: ('Debt', 'NOUN') vs ('Debt', 'NOUN')
-Position 24: ('as', 'ADP') vs ('as', 'ADP')
-Position 25: ('long', 'ADJ') vs ('long', 'ADJ')
-Position 26: ('as', 'ADP') vs ('as', 'ADP')
-Position 27: ('it', 'PRON') vs ('it', 'PRON')
-Position 28: ('s', 'VERB') vs ('s', 'VERB')
-Position 29: ('really', 'ADV') vs ('really', 'ADV')
-Position 30: ('used', 'VERB') vs ('used', 'VERB')
-Position 31: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 32: ('develop', 'VERB') vs ('develop', 'VERB')
-Position 33: ('the', 'DET') vs ('the', 'DET')
-Position 34: ('country', 'NOUN') vs ('country', 'NOUN')
-Position 35: ('&', 'CONJ') vs ('&', 'CONJ')
-Position 36: ('not', 'ADV') vs ('not', 'ADV')
-Position 37: ('corrupted', 'VERB') vs ('corrupted', 'VERB')
-Position 38: ('by', 'ADP') vs ('by', 'ADP')
-Position 39: ('the', 'DET') vs ('the', 'DET')
-Position 40: ('elites', 'NOUN') vs ('elites', 'NOUN')
-Position 41: *('!', '.')* vs *('!', 'PUNCT')*
-Position 42: ('But', 'CONJ') vs ('But', 'CONJ')
-Position 43: ('of', 'ADP') vs ('of', 'ADP')
-Position 44: ('course', 'NOUN') vs ('course', 'NOUN')
-Position 45: ('not', 'ADV') vs ('not', 'ADV')
-Position 46: *('200%', 'VERB')* vs *('200%', 'NUM')*
-Position 47: ('debt', 'NOUN') vs ('debt', 'NOUN')
-Position 48: ('to', 'ADP') vs ('to', 'ADP')
-Position 49: ('GDP', 'NOUN') vs ('GDP', 'NOUN')
-Position 50: ('ratio', 'NOUN') vs ('ratio', 'NOUN')
-Position 51: *('!', '.')* vs *('!', 'PUNCT')*
-Position 52: ('You', 'PRON') vs ('You', 'PRON')
-Position 53: ('re', 'VERB') vs ('re', 'VERB')
-Position 54: ('an', 'DET') vs ('an', 'DET')
-Position 55: ('IMF', 'NOUN') vs ('IMF', 'NOUN')
-Position 56: ('analyst', 'NOUN') vs ('analyst', 'NOUN')
-Position 57: ("can't", 'VERB') vs ("can't", 'VERB')
-Position 58: ('be', 'VERB') vs ('be', 'VERB')
-Position 59: ('trusted', 'VERB') vs ('trusted', 'VERB')
-Position 60: *('!', '.')* vs *('!', 'PUNCT')*
-Position 61: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('On', 'ADP') *('no.2', 'NOUN')* *('Aggregate', '.')* *('Demand', '<end>')* ('also', 'ADV') ('fell', 'VERB') ('in', 'ADP') *('Developed', 'DET')* ('Countries', 'NOUN') ('during', 'ADP') ('Covid', 'NOUN') ('&', 'CONJ') ('after', 'ADP') *('!', '.')* ('I', 'PRON') ('ve', 'VERB') ('never', 'ADV') ('had', 'VERB') ('a', 'DET') ('problem', 'NOUN') ('with', 'ADP') ('Debt', 'NOUN') ('as', 'ADP') ('long', 'ADJ') ('as', 'ADP') ('it', 'PRON') ('s', 'VERB') ('really', 'ADV') ('used', 'VERB') *('to', 'PRT')* ('develop', 'VERB') ('the', 'DET') ('country', 'NOUN') ('&', 'CONJ') ('not', 'ADV') ('corrupted', 'VERB') ('by', 'ADP') ('the', 'DET') ('elites', 'NOUN') *('!', '.')* ('But', 'CONJ') ('of', 'ADP') ('course', 'NOUN') ('not', 'ADV') *('200%', 'VERB')* ('debt', 'NOUN') ('to', 'ADP') ('GDP', 'NOUN') ('ratio', 'NOUN') *('!', '.')* ('You', 'PRON') ('re', 'VERB') ('an', 'DET') ('IMF', 'NOUN') ('analyst', 'NOUN') ("can't", 'VERB') ('be', 'VERB') ('trusted', 'VERB') *('!', '.')* ('<end>', '<end>') 
+('<start>', '<start>') ('On', 'ADP') *('no.2', 'NUM')* *('Aggregate', 'NOUN')* *('Demand', 'NOUN')* ('also', 'ADV') ('fell', 'VERB') ('in', 'ADP') *('Developed', 'ADJ')* ('Countries', 'NOUN') ('during', 'ADP') ('Covid', 'NOUN') ('&', 'CONJ') ('after', 'ADP') *('!', 'PUNCT')* ('I', 'PRON') ('ve', 'VERB') ('never', 'ADV') ('had', 'VERB') ('a', 'DET') ('problem', 'NOUN') ('with', 'ADP') ('Debt', 'NOUN') ('as', 'ADP') ('long', 'ADJ') ('as', 'ADP') ('it', 'PRON') ('s', 'VERB') ('really', 'ADV') ('used', 'VERB') *('to', 'ADP')* ('develop', 'VERB') ('the', 'DET') ('country', 'NOUN') ('&', 'CONJ') ('not', 'ADV') ('corrupted', 'VERB') ('by', 'ADP') ('the', 'DET') ('elites', 'NOUN') *('!', 'PUNCT')* ('But', 'CONJ') ('of', 'ADP') ('course', 'NOUN') ('not', 'ADV') *('200%', 'NUM')* ('debt', 'NOUN') ('to', 'ADP') ('GDP', 'NOUN') ('ratio', 'NOUN') *('!', 'PUNCT')* ('You', 'PRON') ('re', 'VERB') ('an', 'DET') ('IMF', 'NOUN') ('analyst', 'NOUN') ("can't", 'VERB') ('be', 'VERB') ('trusted', 'VERB') *('!', 'PUNCT')* ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 17----------------
+-----------------Showing differneces for sample 17----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('Pakistan', 'NOUN') vs ('Pakistan', 'NOUN')
-Position 3: ('might', 'VERB') vs ('might', 'VERB')
-Position 4: ('have', 'VERB') vs ('have', 'VERB')
-Position 5: ('been', 'VERB') vs ('been', 'VERB')
-Position 6: ('bowled', 'VERB') vs ('bowled', 'VERB')
-Position 7: *('out', 'PRT')* vs *('out', 'ADP')*
-Position 8: ('by', 'ADP') vs ('by', 'ADP')
-Position 9: ('now', 'ADV') vs ('now', 'ADV')
-Position 10: ('if', 'ADP') vs ('if', 'ADP')
-Position 11: ('Rizwan', 'NOUN') vs ('Rizwan', 'NOUN')
-Position 12: *('hadn’t', 'NOUN')* vs *('hadn’t', 'VERB')*
-Position 13: ('been', 'VERB') vs ('been', 'VERB')
-Position 14: ('dropped', 'VERB') vs ('dropped', 'VERB')
-Position 15: ('on', 'ADP') vs ('on', 'ADP')
-Position 16: ('0', 'NUM') vs ('0', 'NUM')
-Position 17: ('.', '.') vs ('.', '.')
-Position 18: *('He’s', 'NOUN')* vs *('He’s', 'PRON')*
-Position 19: ('now', 'ADV') vs ('now', 'ADV')
-Position 20: ('on', 'ADP') vs ('on', 'ADP')
-Position 21: *('38*', 'NOUN')* vs *('38*', 'NUM')*
-Position 22: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 23: ('looking', 'VERB') vs ('looking', 'VERB')
-Position 24: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 25: *('score', 'NOUN')* vs *('score', 'VERB')*
-Position 26: ('runs', 'NOUN') vs ('runs', 'NOUN')
-Position 27: ('quickly', 'ADV') vs ('quickly', 'ADV')
-Position 28: ('.', '.') vs ('.', '.')
-Position 29: ('We', 'PRON') vs ('We', 'PRON')
-Position 30: ('need', 'VERB') vs ('need', 'VERB')
-Position 31: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 32: ('stop', 'VERB') vs ('stop', 'VERB')
-Position 33: ('him', 'PRON') vs ('him', 'PRON')
-Position 34: ('before', 'ADP') vs ('before', 'ADP')
-Position 35: ('they', 'PRON') vs ('they', 'PRON')
-Position 36: ('reach', 'VERB') vs ('reach', 'VERB')
-Position 37: ('200', 'NUM') vs ('200', 'NUM')
-Position 38: ('.', '.') vs ('.', '.')
-Position 39: ('If', 'ADP') vs ('If', 'ADP')
-Position 40: ('they', 'PRON') vs ('they', 'PRON')
-Position 41: ('set', 'VERB') vs ('set', 'VERB')
-Position 42: ('us', 'PRON') vs ('us', 'PRON')
-Position 43: ('a', 'DET') vs ('a', 'DET')
-Position 44: ('target', 'NOUN') vs ('target', 'NOUN')
-Position 45: ('of', 'ADP') vs ('of', 'ADP')
-Position 46: *('230/250', 'NOUN')* vs *('230/250', 'NUM')*
-Position 47: ('then', 'ADV') vs ('then', 'ADV')
-Position 48: ('we', 'PRON') vs ('we', 'PRON')
-Position 49: ('’re', 'VERB') vs ('’re', 'VERB')
-Position 50: ('in', 'ADP') vs ('in', 'ADP')
-Position 51: ('trouble', 'NOUN') vs ('trouble', 'NOUN')
-Position 52: ('.', '.') vs ('.', '.')
-Position 53: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('Pakistan', 'NOUN') ('might', 'VERB') ('have', 'VERB') ('been', 'VERB') ('bowled', 'VERB') *('out', 'PRT')* ('by', 'ADP') ('now', 'ADV') ('if', 'ADP') ('Rizwan', 'NOUN') *('hadn’t', 'NOUN')* ('been', 'VERB') ('dropped', 'VERB') ('on', 'ADP') ('0', 'NUM') ('.', '.') *('He’s', 'NOUN')* ('now', 'ADV') ('on', 'ADP') *('38*', 'NOUN')* ('and', 'CONJ') ('looking', 'VERB') *('to', 'PRT')* *('score', 'NOUN')* ('runs', 'NOUN') ('quickly', 'ADV') ('.', '.') ('We', 'PRON') ('need', 'VERB') *('to', 'PRT')* ('stop', 'VERB') ('him', 'PRON') ('before', 'ADP') ('they', 'PRON') ('reach', 'VERB') ('200', 'NUM') ('.', '.') ('If', 'ADP') ('they', 'PRON') ('set', 'VERB') ('us', 'PRON') ('a', 'DET') ('target', 'NOUN') ('of', 'ADP') *('230/250', 'NOUN')* ('then', 'ADV') ('we', 'PRON') ('’re', 'VERB') ('in', 'ADP') ('trouble', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('Pakistan', 'NOUN') ('might', 'VERB') ('have', 'VERB') ('been', 'VERB') ('bowled', 'VERB') *('out', 'ADP')* ('by', 'ADP') ('now', 'ADV') ('if', 'ADP') ('Rizwan', 'NOUN') *('hadn’t', 'VERB')* ('been', 'VERB') ('dropped', 'VERB') ('on', 'ADP') ('0', 'NUM') ('.', '.') *('He’s', 'PRON')* ('now', 'ADV') ('on', 'ADP') *('38*', 'NUM')* ('and', 'CONJ') ('looking', 'VERB') *('to', 'ADP')* *('score', 'VERB')* ('runs', 'NOUN') ('quickly', 'ADV') ('.', '.') ('We', 'PRON') ('need', 'VERB') *('to', 'ADP')* ('stop', 'VERB') ('him', 'PRON') ('before', 'ADP') ('they', 'PRON') ('reach', 'VERB') ('200', 'NUM') ('.', '.') ('If', 'ADP') ('they', 'PRON') ('set', 'VERB') ('us', 'PRON') ('a', 'DET') ('target', 'NOUN') ('of', 'ADP') *('230/250', 'NUM')* ('then', 'ADV') ('we', 'PRON') ('’re', 'VERB') ('in', 'ADP') ('trouble', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 18----------------
+-----------------Showing differneces for sample 18----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('Yes', 'ADV') vs ('Yes', 'ADV')
-Position 3: ('.', '.') vs ('.', '.')
-Position 4: *('Agree', 'NOUN')* vs *('Agree', 'VERB')*
-Position 5: ('.', '.') vs ('.', '.')
-Position 6: ('But', 'CONJ') vs ('But', 'CONJ')
-Position 7: ('government', 'NOUN') vs ('government', 'NOUN')
-Position 8: *('must', 'VERB')* vs *('must', 'AUX')*
-Position 9: ('do', 'VERB') vs ('do', 'VERB')
-Position 10: ('it', 'PRON') vs ('it', 'PRON')
-Position 11: ('with', 'ADP') vs ('with', 'ADP')
-Position 12: ('sensibility', 'NOUN') vs ('sensibility', 'NOUN')
-Position 13: ('knowledge', 'NOUN') vs ('knowledge', 'NOUN')
-Position 14: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 15: ('understanding', 'NOUN') vs ('understanding', 'NOUN')
-Position 16: *('their', 'DET')* vs *('their', 'PRON')*
-Position 17: ('decisions', 'NOUN') vs ('decisions', 'NOUN')
-Position 18: ('.', '.') vs ('.', '.')
-Position 19: ('And', 'CONJ') vs ('And', 'CONJ')
-Position 20: ('many', 'ADJ') vs ('many', 'ADJ')
-Position 21: ('of', 'ADP') vs ('of', 'ADP')
-Position 22: ('those', 'DET') vs ('those', 'DET')
-Position 23: ('wishes', 'NOUN') vs ('wishes', 'NOUN')
-Position 24: *('cannot', 'VERB')* vs *('cannot', 'AUX')*
-Position 25: ('be', 'VERB') vs ('be', 'VERB')
-Position 26: ('implemented', 'VERB') vs ('implemented', 'VERB')
-Position 27: ('in', 'ADP') vs ('in', 'ADP')
-Position 28: ('the', 'DET') vs ('the', 'DET')
-Position 29: ('middle', 'NOUN') vs ('middle', 'NOUN')
-Position 30: ('of', 'ADP') vs ('of', 'ADP')
-Position 31: ('the', 'DET') vs ('the', 'DET')
-Position 32: ('fiscal', 'ADJ') vs ('fiscal', 'ADJ')
-Position 33: ('year', 'NOUN') vs ('year', 'NOUN')
-Position 34: ('.', '.') vs ('.', '.')
-Position 35: *('Sadly', 'NOUN')* vs *('Sadly', 'ADV')*
-Position 36: ('torries', 'NOUN') vs ('torries', 'NOUN')
-Position 37: ('left', 'VERB') vs ('left', 'VERB')
-Position 38: ('us', 'PRON') vs ('us', 'PRON')
-Position 39: *('all', 'PRT')* vs *('all', 'ADV')*
-Position 40: ('with', 'ADP') vs ('with', 'ADP')
-Position 41: ('many', 'ADJ') vs ('many', 'ADJ')
-Position 42: ('problems', 'NOUN') vs ('problems', 'NOUN')
-Position 43: *('which', 'DET')* vs *('which', 'PRON')*
-Position 44: *('cannot', 'VERB')* vs *('cannot', 'AUX')*
-Position 45: ('be', 'VERB') vs ('be', 'VERB')
-Position 46: ('sorted', 'VERB') vs ('sorted', 'VERB')
-Position 47: ('in', 'ADP') vs ('in', 'ADP')
-Position 48: ('100', 'NUM') vs ('100', 'NUM')
-Position 49: ('or', 'CONJ') vs ('or', 'CONJ')
-Position 50: ('even', 'ADV') vs ('even', 'ADV')
-Position 51: ('200', 'NUM') vs ('200', 'NUM')
-Position 52: ('days', 'NOUN') vs ('days', 'NOUN')
-Position 53: ('after', 'ADP') vs ('after', 'ADP')
-Position 54: ('elections', 'NOUN') vs ('elections', 'NOUN')
-Position 55: *('Sadly', 'NOUN')* vs *('Sadly', 'ADV')*
-Position 56: ('we', 'PRON') vs ('we', 'PRON')
-Position 57: *('will', 'VERB')* vs *('will', 'AUX')*
-Position 58: ('still', 'ADV') vs ('still', 'ADV')
-Position 59: ('pay', 'VERB') vs ('pay', 'VERB')
-Position 60: ('for', 'ADP') vs ('for', 'ADP')
-Position 61: ('the', 'DET') vs ('the', 'DET')
-Position 62: ('decisions', 'NOUN') vs ('decisions', 'NOUN')
-Position 63: ('in', 'ADP') vs ('in', 'ADP')
-Position 64: ('longer', 'ADJ') vs ('longer', 'ADJ')
-Position 65: ('term', 'NOUN') vs ('term', 'NOUN')
-Position 66: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 67: ('even', 'ADV') vs ('even', 'ADV')
-Position 68: ('with', 'ADP') vs ('with', 'ADP')
-Position 69: ('shorter', 'ADJ') vs ('shorter', 'ADJ')
-Position 70: ('this', 'DET') vs ('this', 'DET')
-Position 71: ('Winter', 'NOUN') vs ('Winter', 'NOUN')
-Position 72: ('.', '.') vs ('.', '.')
-Position 73: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('Yes', 'ADV') ('.', '.') *('Agree', 'NOUN')* ('.', '.') ('But', 'CONJ') ('government', 'NOUN') *('must', 'VERB')* ('do', 'VERB') ('it', 'PRON') ('with', 'ADP') ('sensibility', 'NOUN') ('knowledge', 'NOUN') ('and', 'CONJ') ('understanding', 'NOUN') *('their', 'DET')* ('decisions', 'NOUN') ('.', '.') ('And', 'CONJ') ('many', 'ADJ') ('of', 'ADP') ('those', 'DET') ('wishes', 'NOUN') *('cannot', 'VERB')* ('be', 'VERB') ('implemented', 'VERB') ('in', 'ADP') ('the', 'DET') ('middle', 'NOUN') ('of', 'ADP') ('the', 'DET') ('fiscal', 'ADJ') ('year', 'NOUN') ('.', '.') *('Sadly', 'NOUN')* ('torries', 'NOUN') ('left', 'VERB') ('us', 'PRON') *('all', 'PRT')* ('with', 'ADP') ('many', 'ADJ') ('problems', 'NOUN') *('which', 'DET')* *('cannot', 'VERB')* ('be', 'VERB') ('sorted', 'VERB') ('in', 'ADP') ('100', 'NUM') ('or', 'CONJ') ('even', 'ADV') ('200', 'NUM') ('days', 'NOUN') ('after', 'ADP') ('elections', 'NOUN') *('Sadly', 'NOUN')* ('we', 'PRON') *('will', 'VERB')* ('still', 'ADV') ('pay', 'VERB') ('for', 'ADP') ('the', 'DET') ('decisions', 'NOUN') ('in', 'ADP') ('longer', 'ADJ') ('term', 'NOUN') ('and', 'CONJ') ('even', 'ADV') ('with', 'ADP') ('shorter', 'ADJ') ('this', 'DET') ('Winter', 'NOUN') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('Yes', 'ADV') ('.', '.') *('Agree', 'VERB')* ('.', '.') ('But', 'CONJ') ('government', 'NOUN') *('must', 'AUX')* ('do', 'VERB') ('it', 'PRON') ('with', 'ADP') ('sensibility', 'NOUN') ('knowledge', 'NOUN') ('and', 'CONJ') ('understanding', 'NOUN') *('their', 'PRON')* ('decisions', 'NOUN') ('.', '.') ('And', 'CONJ') ('many', 'ADJ') ('of', 'ADP') ('those', 'DET') ('wishes', 'NOUN') *('cannot', 'AUX')* ('be', 'VERB') ('implemented', 'VERB') ('in', 'ADP') ('the', 'DET') ('middle', 'NOUN') ('of', 'ADP') ('the', 'DET') ('fiscal', 'ADJ') ('year', 'NOUN') ('.', '.') *('Sadly', 'ADV')* ('torries', 'NOUN') ('left', 'VERB') ('us', 'PRON') *('all', 'ADV')* ('with', 'ADP') ('many', 'ADJ') ('problems', 'NOUN') *('which', 'PRON')* *('cannot', 'AUX')* ('be', 'VERB') ('sorted', 'VERB') ('in', 'ADP') ('100', 'NUM') ('or', 'CONJ') ('even', 'ADV') ('200', 'NUM') ('days', 'NOUN') ('after', 'ADP') ('elections', 'NOUN') *('Sadly', 'ADV')* ('we', 'PRON') *('will', 'AUX')* ('still', 'ADV') ('pay', 'VERB') ('for', 'ADP') ('the', 'DET') ('decisions', 'NOUN') ('in', 'ADP') ('longer', 'ADJ') ('term', 'NOUN') ('and', 'CONJ') ('even', 'ADV') ('with', 'ADP') ('shorter', 'ADJ') ('this', 'DET') ('Winter', 'NOUN') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 19----------------
+-----------------Showing differneces for sample 19----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: ('The', 'DET') vs ('The', 'DET')
-Position 3: *('#China-built', 'NOUN')* vs *('#China-built', 'ADJ')*
-Position 4: *('Redstone', '.')* vs *('Redstone', 'NOUN')*
-Position 5: *('Concentrated', 'NOUN')* vs *('Concentrated', 'ADJ')*
-Position 6: *('#Solar', 'NOUN')* vs *('#Solar', 'ADJ')*
-Position 7: *('Thermal', '.')* vs *('Thermal', 'ADJ')*
-Position 8: ('Power', 'NOUN') vs ('Power', 'NOUN')
-Position 9: *('Project', '.')* vs *('Project', 'NOUN')*
-Position 10: ('in', 'ADP') vs ('in', 'ADP')
-Position 11: *('south', 'NOUN')* vs *('south', 'ADJ')*
-Position 12: ('#Africa', 'NOUN') vs ('#Africa', 'NOUN')
-Position 13: ('the', 'DET') vs ('the', 'DET')
-Position 14: *('first-of-its-kind', 'NOUN')* vs *('first-of-its-kind', 'ADJ')*
-Position 15: *('#RenewableEnergy', 'NOUN')* vs *('#RenewableEnergy', 'ADJ')*
-Position 16: ('project', 'NOUN') vs ('project', 'NOUN')
-Position 17: ('in', 'ADP') vs ('in', 'ADP')
-Position 18: *('sub-Saharan', 'NOUN')* vs *('sub-Saharan', 'ADJ')*
-Position 19: ('Africa', 'NOUN') vs ('Africa', 'NOUN')
-Position 20: *('will', 'VERB')* vs *('will', 'AUX')*
-Position 21: ('be', 'VERB') vs ('be', 'VERB')
-Position 22: ('connected', 'VERB') vs ('connected', 'VERB')
-Position 23: *('to', 'PRT')* vs *('to', 'ADP')*
-Position 24: ('the', 'DET') vs ('the', 'DET')
-Position 25: ('grid', 'NOUN') vs ('grid', 'NOUN')
-Position 26: ('in', 'ADP') vs ('in', 'ADP')
-Position 27: ('early', 'ADJ') vs ('early', 'ADJ')
-Position 28: ('September', 'NOUN') vs ('September', 'NOUN')
-Position 29: ('to', 'ADP') vs ('to', 'ADP')
-Position 30: *('supply', 'NOUN')* vs *('supply', 'VERB')*
-Position 31: *('480', '.')* vs *('480', 'NUM')*
-Position 32: ('GWh', 'NOUN') vs ('GWh', 'NOUN')
-Position 33: ('of', 'ADP') vs ('of', 'ADP')
-Position 34: ('#electricity', 'NOUN') vs ('#electricity', 'NOUN')
-Position 35: ('for', 'ADP') vs ('for', 'ADP')
-Position 36: *('200,000+', 'NOUN')* vs *('200,000+', 'NUM')*
-Position 37: *('households', '.')* vs *('households', 'NOUN')*
-Position 38: ('annually', 'ADV') vs ('annually', 'ADV')
-Position 39: ('.', '.') vs ('.', '.')
-Position 40: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') ('The', 'DET') *('#China-built', 'NOUN')* *('Redstone', '.')* *('Concentrated', 'NOUN')* *('#Solar', 'NOUN')* *('Thermal', '.')* ('Power', 'NOUN') *('Project', '.')* ('in', 'ADP') *('south', 'NOUN')* ('#Africa', 'NOUN') ('the', 'DET') *('first-of-its-kind', 'NOUN')* *('#RenewableEnergy', 'NOUN')* ('project', 'NOUN') ('in', 'ADP') *('sub-Saharan', 'NOUN')* ('Africa', 'NOUN') *('will', 'VERB')* ('be', 'VERB') ('connected', 'VERB') *('to', 'PRT')* ('the', 'DET') ('grid', 'NOUN') ('in', 'ADP') ('early', 'ADJ') ('September', 'NOUN') ('to', 'ADP') *('supply', 'NOUN')* *('480', '.')* ('GWh', 'NOUN') ('of', 'ADP') ('#electricity', 'NOUN') ('for', 'ADP') *('200,000+', 'NOUN')* *('households', '.')* ('annually', 'ADV') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') ('The', 'DET') *('#China-built', 'ADJ')* *('Redstone', 'NOUN')* *('Concentrated', 'ADJ')* *('#Solar', 'ADJ')* *('Thermal', 'ADJ')* ('Power', 'NOUN') *('Project', 'NOUN')* ('in', 'ADP') *('south', 'ADJ')* ('#Africa', 'NOUN') ('the', 'DET') *('first-of-its-kind', 'ADJ')* *('#RenewableEnergy', 'ADJ')* ('project', 'NOUN') ('in', 'ADP') *('sub-Saharan', 'ADJ')* ('Africa', 'NOUN') *('will', 'AUX')* ('be', 'VERB') ('connected', 'VERB') *('to', 'ADP')* ('the', 'DET') ('grid', 'NOUN') ('in', 'ADP') ('early', 'ADJ') ('September', 'NOUN') ('to', 'ADP') *('supply', 'VERB')* *('480', 'NUM')* ('GWh', 'NOUN') ('of', 'ADP') ('#electricity', 'NOUN') ('for', 'ADP') *('200,000+', 'NUM')* *('households', 'NOUN')* ('annually', 'ADV') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 
------------------Showing differnece for sample 20----------------
+-----------------Showing differneces for sample 20----------------
+                 (our Model) vs (chatGPT)
 
-Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
-Position 2: *('Meet', 'PRON')* vs *('Meet', 'VERB')*
-Position 3: *('Teresa', 'VERB')* vs *('Teresa', 'NOUN')*
-Position 4: ('who', 'PRON') vs ('who', 'PRON')
-Position 5: ('supports', 'VERB') vs ('supports', 'VERB')
-Position 6: *('@WFP', 'VERB')* vs *('@WFP', 'NOUN')*
-Position 7: ('funded', 'VERB') vs ('funded', 'VERB')
-Position 8: ('food', 'NOUN') vs ('food', 'NOUN')
-Position 9: ('distributions', 'NOUN') vs ('distributions', 'NOUN')
-Position 10: ('.', '.') vs ('.', '.')
-Position 11: ('In', 'ADP') vs ('In', 'ADP')
-Position 12: ('Unity', 'NOUN') vs ('Unity', 'NOUN')
-Position 13: ('since', 'ADP') vs ('since', 'ADP')
-Position 14: ('January', 'NOUN') vs ('January', 'NOUN')
-Position 15: ('we', 'PRON') vs ('we', 'PRON')
-Position 16: ('ve', 'VERB') vs ('ve', 'VERB')
-Position 17: ('provided', 'VERB') vs ('provided', 'VERB')
-Position 18: ('food', 'NOUN') vs ('food', 'NOUN')
-Position 19: ('to', 'ADP') vs ('to', 'ADP')
-Position 20: *('200,000+', 'NOUN')* vs *('200,000+', 'NUM')*
-Position 21: ('residents', 'NOUN') vs ('residents', 'NOUN')
-Position 22: ('IDPs', 'NOUN') vs ('IDPs', 'NOUN')
-Position 23: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 24: ('returnees', 'NOUN') vs ('returnees', 'NOUN')
-Position 25: ('fleeing', 'VERB') vs ('fleeing', 'VERB')
-Position 26: *('#Sudan', 'VERB')* vs *('#Sudan', 'NOUN')*
-Position 27: ('.', '.') vs ('.', '.')
-Position 28: *('Teresa', '<end>')* vs *('Teresa', 'NOUN')*
-Position 29: ('ensures', 'VERB') vs ('ensures', 'VERB')
-Position 30: ('the', 'DET') vs ('the', 'DET')
-Position 31: *('most', 'ADJ')* vs *('most', 'ADV')*
-Position 32: ('vulnerable', 'ADJ') vs ('vulnerable', 'ADJ')
-Position 33: *('are', 'VERB')* vs *('are', 'AUX')*
-Position 34: ('reached', 'VERB') vs ('reached', 'VERB')
-Position 35: ('and', 'CONJ') vs ('and', 'CONJ')
-Position 36: *('their', 'DET')* vs *('their', 'PRON')*
-Position 37: ('voices', 'NOUN') vs ('voices', 'NOUN')
-Position 38: ('heard', 'VERB') vs ('heard', 'VERB')
-Position 39: ('.', '.') vs ('.', '.')
-Position 40: ('<end>', '<end>') vs ('<end>', '<end>')
+('<start>', '<start>') *('Meet', 'PRON')* *('Teresa', 'VERB')* ('who', 'PRON') ('supports', 'VERB') *('@WFP', 'VERB')* ('funded', 'VERB') ('food', 'NOUN') ('distributions', 'NOUN') ('.', '.') ('In', 'ADP') ('Unity', 'NOUN') ('since', 'ADP') ('January', 'NOUN') ('we', 'PRON') ('ve', 'VERB') ('provided', 'VERB') ('food', 'NOUN') ('to', 'ADP') *('200,000+', 'NOUN')* ('residents', 'NOUN') ('IDPs', 'NOUN') ('and', 'CONJ') ('returnees', 'NOUN') ('fleeing', 'VERB') *('#Sudan', 'VERB')* ('.', '.') *('Teresa', '<end>')* ('ensures', 'VERB') ('the', 'DET') *('most', 'ADJ')* ('vulnerable', 'ADJ') *('are', 'VERB')* ('reached', 'VERB') ('and', 'CONJ') *('their', 'DET')* ('voices', 'NOUN') ('heard', 'VERB') ('.', '.') ('<end>', '<end>') 
+('<start>', '<start>') *('Meet', 'VERB')* *('Teresa', 'NOUN')* ('who', 'PRON') ('supports', 'VERB') *('@WFP', 'NOUN')* ('funded', 'VERB') ('food', 'NOUN') ('distributions', 'NOUN') ('.', '.') ('In', 'ADP') ('Unity', 'NOUN') ('since', 'ADP') ('January', 'NOUN') ('we', 'PRON') ('ve', 'VERB') ('provided', 'VERB') ('food', 'NOUN') ('to', 'ADP') *('200,000+', 'NUM')* ('residents', 'NOUN') ('IDPs', 'NOUN') ('and', 'CONJ') ('returnees', 'NOUN') ('fleeing', 'VERB') *('#Sudan', 'NOUN')* ('.', '.') *('Teresa', 'NOUN')* ('ensures', 'VERB') ('the', 'DET') *('most', 'ADV')* ('vulnerable', 'ADJ') *('are', 'AUX')* ('reached', 'VERB') ('and', 'CONJ') *('their', 'PRON')* ('voices', 'NOUN') ('heard', 'VERB') ('.', '.') ('<end>', '<end>') 
 
 ------------------------------------------------------------------
 

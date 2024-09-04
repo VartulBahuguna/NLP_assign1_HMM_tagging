@@ -3,12 +3,14 @@ from model import HMM_model
 # main.py
 
 import pickle
+# import os
 
 from flask import Flask, request, jsonify,send_from_directory
 from flask_cors import CORS
 import re
 
 # Load the model from data.pkl
+# file_path = os.path.join(os.getcwd(), 'data.pkl')
 with open('data.pkl', 'rb') as file:
     hmm_model = pickle.load(file)
 def add_spaces_around_punctuation(text):
