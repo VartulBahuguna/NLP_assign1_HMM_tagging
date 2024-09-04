@@ -1,0 +1,14 @@
+Position 1: ('<start>', '<start>') vs ('<start>', '<start>')
+Position 2: *('Strongest', 'NOUN')* vs *('Strongest', 'ADJ')*
+Position 3: *('Start', 'VERB')* vs *('Start', 'NOUN')*
+Position 4: *('Ever', 'ADV')* vs *('Ever', 'ADJ')*
+Position 5: (':', '.') vs (':', '.')
+Position 6: *('Australian', '<end>')* vs *('Australian', 'ADJ')*
+Position 7: *('ETF', 'NOUN')* vs *('ETF', 'X')*
+Position 8: ('Market', 'NOUN') vs ('Market', 'NOUN')
+Position 9: ('breaks', 'VERB') vs ('breaks', 'VERB')
+Position 10: *('$', 'VERB')* vs *('$', 'X')*
+Position 11: ('200', 'NUM') vs ('200', 'NUM')
+Position 12: ('billion', 'NUM') vs ('billion', 'NUM')
+Position 13: ('record', 'NOUN') vs ('record', 'NOUN')
+Position 14: ('<end>', '<end>') vs ('<end>', '<end>')

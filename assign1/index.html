@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Prediction</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 600px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #007bff;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+            text-align: left;
+            white-space: pre-wrap; /* Preserve whitespace and line breaks */
+            word-wrap: break-word; /* Break long words */
+        }
+        .result span {
+            display: inline-block;
+            margin: 2px 0;
+            padding: 4px;
+            border-radius: 4px;
+            background: #e9ecef;
+        }
+        .result span.word {
+            font-weight: bold;
+        }
+        .result span.tag {
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Model Prediction</h1>
+        <form id="predictionForm">
+            <input type="text" id="sentenceInput" placeholder="Enter your sentence" required>
+            <button type="submit">Get Prediction</button>
+        </form>
+        <div class="result" id="result">
+            <!-- Result will be displayed here -->
+        </div>
+    </div>
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const sentence = document.getElementById('sentenceInput').value;
+
+            fetch('http://localhost:5000/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ sentence })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultContainer = document.getElementById('result');
+                resultContainer.innerHTML = ''; // Clear previous result
+                
+                data.result.forEach(([word, tag]) => {
+                    const wordSpan = document.createElement('span');
+                    wordSpan.classList.add('word');
+                    wordSpan.textContent = word;
+                    
+                    const tagSpan = document.createElement('span');
+                    tagSpan.classList.add('tag');
+                    tagSpan.textContent = tag;
+                    
+                    resultContainer.appendChild(wordSpan);
+                    resultContainer.appendChild(tagSpan);
+                });
+            })
+            .catch(error => {
+                document.getElementById('result').innerText = 'Error fetching prediction';
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
